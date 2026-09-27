@@ -21,4 +21,4 @@ Starting >>> controller
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/cmake/controllerConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/cmake/controllerConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.xml
-Finished <<< controller [0.37s]
+Finished <<< controller [0.27s]

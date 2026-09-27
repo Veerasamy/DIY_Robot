@@ -22,4 +22,4 @@ Starting >>> obstacle_detection
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/cmake/obstacle_detectionConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/cmake/obstacle_detectionConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.xml
-Finished <<< obstacle_detection [0.31s]
+Finished <<< obstacle_detection [0.17s]

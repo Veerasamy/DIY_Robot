@@ -21,4 +21,4 @@ Starting >>> zed_interface
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/cmake/zed_interfaceConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/cmake/zed_interfaceConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.xml
-Finished <<< zed_interface [0.24s]
+Finished <<< zed_interface [0.27s]

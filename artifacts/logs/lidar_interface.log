@@ -20,4 +20,4 @@ Starting >>> lidar_interface
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/cmake/lidar_interfaceConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/cmake/lidar_interfaceConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.xml
-Finished <<< lidar_interface [0.22s]
+Finished <<< lidar_interface [0.15s]

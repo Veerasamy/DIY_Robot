@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Activates the ROS2 Humble environment and launches the autonomous_rc stack,
+# Activates the ROS2 Jazzy environment and launches the autonomous_rc stack,
 # ultimately running every package's node binary via bringup.launch.py.
 # Runs a real-hardware pre-flight check first (serial/USB device presence +
 # the known E-Stop protocol-mismatch warning) so a bad launch fails loudly
@@ -20,11 +20,13 @@
 #     clearance coverage is reduced to the camera's narrower FOV vs 360 LiDAR.
 #
 # Environment detection (in order):
-#   1. This sandbox's userspace RoboStack env (~/micromamba/envs/ros_env),
+#   1. This sandbox's userspace RoboStack env (~/micromamba/envs/ros_env_jazzy),
 #      set up because packages.ros.org is unreachable here but the RoboStack
 #      conda mirror is -- see /memories/repo/autonomous_rc.md for how it was
-#      built.
-#   2. A normal system ROS2 install (/opt/ros/humble/setup.bash), which is
+#      built. A prior Humble env (~/micromamba/envs/ros_env) and its build
+#      output (build_humble/, install_humble/) are kept only as a rollback
+#      reference -- this workspace has fully migrated to Jazzy.
+#   2. A normal system ROS2 install (/opt/ros/jazzy/setup.bash), which is
 #      what the real Jetson Orin Nano target uses.
 set -euo pipefail
 
@@ -121,24 +123,24 @@ if [ "$NO_LIDAR" = "1" ]; then
   LAUNCH_ARGS+=("enable_lidar:=false")
 fi
 
-if [ -d "$HOME/micromamba/envs/ros_env" ]; then
-  echo "Activating sandbox RoboStack env (~/micromamba/envs/ros_env)"
+if [ -d "$HOME/micromamba/envs/ros_env_jazzy" ]; then
+  echo "Activating sandbox RoboStack env (~/micromamba/envs/ros_env_jazzy)"
   export MAMBA_ROOT_PREFIX="$HOME/micromamba"
   # micromamba/conda activation scripts aren't `set -u` safe (reference
   # unset vars like CONDA_BUILD) -- relax nounset just for this section.
   set +u
   eval "$("$HOME/.local/bin/micromamba" shell hook --shell bash)"
-  micromamba activate ros_env
+  micromamba activate ros_env_jazzy
   set -u
   export PATH="/usr/local/cuda/bin:$PATH"
-elif [ -f /opt/ros/humble/setup.bash ]; then
-  echo "Activating system ROS2 Humble install (/opt/ros/humble)"
+elif [ -f /opt/ros/jazzy/setup.bash ]; then
+  echo "Activating system ROS2 Jazzy install (/opt/ros/jazzy)"
   set +u
   # shellcheck source=/dev/null
-  source /opt/ros/humble/setup.bash
+  source /opt/ros/jazzy/setup.bash
   set -u
 else
-  echo "ERROR: no ROS2 Humble installation found (neither ~/micromamba/envs/ros_env nor /opt/ros/humble/setup.bash)." >&2
+  echo "ERROR: no ROS2 Jazzy installation found (neither ~/micromamba/envs/ros_env_jazzy nor /opt/ros/jazzy/setup.bash)." >&2
   echo "Build the workspace first -- see README.md." >&2
   exit 1
 fi

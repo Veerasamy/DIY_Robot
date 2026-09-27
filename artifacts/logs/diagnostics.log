@@ -24,4 +24,4 @@ Starting >>> diagnostics
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.xml
-Finished <<< diagnostics [0.28s]
+Finished <<< diagnostics [0.23s]

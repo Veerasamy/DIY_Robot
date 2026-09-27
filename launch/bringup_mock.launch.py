@@ -6,12 +6,21 @@ DEMO/TESTING ONLY. The E-Stop link is mocked to always report "clear"
 (mock_estop_link.py) -- this bypasses the one thing that must never be
 bypassed on a real vehicle. Never use this launch file with real actuators
 connected.
+
+Use `launch_mocks:=false` when pairing with scripts/interactive_dashboard.py,
+which absorbs mock_estop_link.py's and mock_sensors.py's jobs itself --
+running both would create duplicate publishers on the same synthetic topics
+and a duplicate claim on the same E-Stop pty. Start the dashboard FIRST in
+that case (it must create /tmp/mock_estop_pty before safety_manager's 1.0s
+startup timer fires).
 """
 import os
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import ExecuteProcess, TimerAction
+from launch.actions import DeclareLaunchArgument, ExecuteProcess, TimerAction
+from launch.conditions import IfCondition
+from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
 SCRIPTS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts")
@@ -22,15 +31,23 @@ MOCK_ESTOP_PTY = "/tmp/mock_estop_pty"
 
 
 def generate_launch_description():
+    launch_mocks_arg = DeclareLaunchArgument(
+        "launch_mocks", default_value="true",
+        description="Set false when pairing with interactive_dashboard.py, which "
+                     "already publishes the same synthetic topics + E-Stop pty itself.")
+    launch_mocks = IfCondition(LaunchConfiguration("launch_mocks"))
+
     mock_estop = ExecuteProcess(
         cmd=["python3", os.path.join(SCRIPTS_DIR, "mock_estop_link.py")],
         name="mock_estop_link",
         output="screen",
+        condition=launch_mocks,
     )
     mock_sensors = ExecuteProcess(
         cmd=["python3", os.path.join(SCRIPTS_DIR, "mock_sensors.py")],
         name="mock_sensors",
         output="screen",
+        condition=launch_mocks,
     )
 
     safety = Node(
@@ -86,4 +103,5 @@ def generate_launch_description():
         )],
     )
 
-    return LaunchDescription([mock_estop, delayed_safety, delayed_rest, auto_clear_estop])
+    return LaunchDescription(
+        [launch_mocks_arg, mock_estop, delayed_safety, delayed_rest, auto_clear_estop])

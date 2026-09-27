@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Activates the ROS2 Humble environment and launches the full autonomous_rc
+# Activates the ROS2 Jazzy environment and launches the full autonomous_rc
 # stack with SYNTHETIC sensor data (bringup_mock.launch.py) so it can be
 # exercised end-to-end without real hardware attached.
 #
@@ -12,22 +12,22 @@ WORKSPACE_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 echo "== run_mock_demo.sh =="
 echo "WARNING: this uses synthetic sensor data and a mocked E-Stop link -- never run on a real vehicle."
 
-if [ -d "$HOME/micromamba/envs/ros_env" ]; then
-  echo "Activating sandbox RoboStack env (~/micromamba/envs/ros_env)"
+if [ -d "$HOME/micromamba/envs/ros_env_jazzy" ]; then
+  echo "Activating sandbox RoboStack env (~/micromamba/envs/ros_env_jazzy)"
   export MAMBA_ROOT_PREFIX="$HOME/micromamba"
   set +u
   eval "$("$HOME/.local/bin/micromamba" shell hook --shell bash)"
-  micromamba activate ros_env
+  micromamba activate ros_env_jazzy
   set -u
   export PATH="/usr/local/cuda/bin:$PATH"
-elif [ -f /opt/ros/humble/setup.bash ]; then
-  echo "Activating system ROS2 Humble install (/opt/ros/humble)"
+elif [ -f /opt/ros/jazzy/setup.bash ]; then
+  echo "Activating system ROS2 Jazzy install (/opt/ros/jazzy)"
   set +u
   # shellcheck source=/dev/null
-  source /opt/ros/humble/setup.bash
+  source /opt/ros/jazzy/setup.bash
   set -u
 else
-  echo "ERROR: no ROS2 Humble installation found (neither ~/micromamba/envs/ros_env nor /opt/ros/humble/setup.bash)." >&2
+  echo "ERROR: no ROS2 Jazzy installation found (neither ~/micromamba/envs/ros_env_jazzy nor /opt/ros/jazzy/setup.bash)." >&2
   exit 1
 fi
 

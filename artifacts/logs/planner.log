@@ -22,4 +22,4 @@ Starting >>> planner
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/cmake/plannerConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/cmake/plannerConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.xml
-Finished <<< planner [0.28s]
+Finished <<< planner [0.31s]

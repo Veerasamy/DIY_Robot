@@ -21,4 +21,4 @@ Starting >>> recovery_manager
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/cmake/recovery_managerConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/cmake/recovery_managerConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.xml
-Finished <<< recovery_manager [0.35s]
+Finished <<< recovery_manager [0.29s]

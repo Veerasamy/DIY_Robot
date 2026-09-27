@@ -22,4 +22,4 @@ Starting >>> lane_detection
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/cmake/lane_detectionConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/cmake/lane_detectionConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.xml
-Finished <<< lane_detection [0.42s]
+Finished <<< lane_detection [0.24s]

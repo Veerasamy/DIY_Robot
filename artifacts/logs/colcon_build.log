@@ -19,7 +19,7 @@ Starting >>> encoder_interface
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/cmake/encoder_interfaceConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/cmake/encoder_interfaceConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.xml
-Finished <<< encoder_interface [0.22s]
+Finished <<< encoder_interface [0.17s]
 Starting >>> lane_detection
 [ 40%] Built target lane_detector
 [100%] Built target lane_detection_node
@@ -44,7 +44,7 @@ Starting >>> lane_detection
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/cmake/lane_detectionConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/cmake/lane_detectionConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.xml
-Finished <<< lane_detection [0.42s]
+Finished <<< lane_detection [0.24s]
 Starting >>> lidar_interface
 [100%] Built target scan_filter_node
 -- Install configuration: "Release"
@@ -67,7 +67,7 @@ Starting >>> lidar_interface
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/cmake/lidar_interfaceConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/cmake/lidar_interfaceConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.xml
-Finished <<< lidar_interface [0.22s]
+Finished <<< lidar_interface [0.15s]
 Starting >>> obstacle_detection
 [ 40%] Built target vfh_planner
 [100%] Built target obstacle_avoidance_node
@@ -92,7 +92,7 @@ Starting >>> obstacle_detection
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/cmake/obstacle_detectionConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/cmake/obstacle_detectionConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.xml
-Finished <<< obstacle_detection [0.31s]
+Finished <<< obstacle_detection [0.17s]
 Starting >>> planner
 [ 50%] Built target planner_core
 [100%] Built target local_planner_node
@@ -117,24 +117,26 @@ Starting >>> planner
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/cmake/plannerConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/cmake/plannerConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.xml
-Finished <<< planner [0.28s]
+Finished <<< planner [0.31s]
 Starting >>> safety_manager
-[  2%] Built target safety_manager__cpp
-[ 11%] Built target safety_manager__rosidl_generator_c
-[ 11%] Built target ament_cmake_python_symlink_safety_manager
-[ 37%] Built target safety_manager__rosidl_typesupport_cpp
-[ 39%] Built target safety_manager__rosidl_typesupport_introspection_c
-[ 41%] Built target safety_manager__rosidl_typesupport_fastrtps_cpp
-[ 53%] Built target safety_manager__rosidl_typesupport_c
-[ 58%] Built target safety_manager__rosidl_typesupport_fastrtps_c
-[ 67%] Built target safety_manager__rosidl_typesupport_introspection_cpp
-[ 67%] Built target safety_manager
-[ 76%] Built target estop_bridge_node
-[ 79%] Built target safety_manager__py
-[ 86%] Built target safety_manager__rosidl_generator_py
-[ 90%] Built target safety_manager__rosidl_typesupport_introspection_c__pyext
-[ 95%] Built target safety_manager__rosidl_typesupport_fastrtps_c__pyext
-[100%] Built target safety_manager__rosidl_typesupport_c__pyext
+[  2%] Built target safety_manager__rs
+[  4%] Built target safety_manager__rosidl_generator_type_description
+[  4%] Built target ament_cmake_python_symlink_safety_manager
+[  6%] Built target safety_manager__cpp
+[ 22%] Built target safety_manager__rosidl_generator_c
+[ 30%] Built target safety_manager__rosidl_typesupport_c
+[ 38%] Built target safety_manager__rosidl_typesupport_introspection_c
+[ 46%] Built target safety_manager__rosidl_typesupport_introspection_cpp
+[ 55%] Built target safety_manager__rosidl_typesupport_cpp
+[ 63%] Built target safety_manager__rosidl_typesupport_fastrtps_cpp
+[ 71%] Built target safety_manager__rosidl_typesupport_fastrtps_c
+[ 71%] Built target safety_manager
+[ 73%] Built target safety_manager__py
+[ 81%] Built target estop_bridge_node
+[ 87%] Built target safety_manager__rosidl_generator_py
+[ 91%] Built target safety_manager_s__rosidl_typesupport_introspection_c
+[ 97%] Built target safety_manager_s__rosidl_typesupport_c
+[100%] Built target safety_manager_s__rosidl_typesupport_fastrtps_c
 running egg_info
 writing safety_manager.egg-info/PKG-INFO
 writing dependency_links to safety_manager.egg-info/dependency_links.txt
@@ -145,6 +147,8 @@ writing manifest file 'safety_manager.egg-info/SOURCES.txt'
 -- Install configuration: "Release"
 -- Execute custom install script
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/ament_index/resource_index/rosidl_interfaces/safety_manager
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/EStopStatus.json
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/VehicleState.json
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__functions.h
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__struct.h
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__type_support.h
@@ -178,26 +182,30 @@ writing manifest file 'safety_manager.egg-info/SOURCES.txt'
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__rosidl_typesupport_introspection_cpp.hpp
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/environment/pythonpath.sh
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/environment/pythonpath.dsv
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager-1.0.0-py3.11.egg-info/PKG-INFO
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager-1.0.0-py3.11.egg-info/SOURCES.txt
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager-1.0.0-py3.11.egg-info/dependency_links.txt
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager-1.0.0-py3.11.egg-info/top_level.txt
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/__init__.py
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/_safety_manager_s.ep.rosidl_typesupport_c.c
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/_safety_manager_s.ep.rosidl_typesupport_fastrtps_c.c
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/_safety_manager_s.ep.rosidl_typesupport_introspection_c.c
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/libsafety_manager__rosidl_generator_py.so
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/msg/__init__.py
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/msg/_e_stop_status.py
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/msg/_e_stop_status_s.c
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/msg/_vehicle_state.py
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/msg/_vehicle_state_s.c
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
--- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.11/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager-1.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager-1.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/__init__.py
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/_safety_manager_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/_safety_manager_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/_safety_manager_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/__init__.py
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_e_stop_status.py
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_e_stop_status_s.c
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_vehicle_state.py
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_vehicle_state_s.c
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/Cargo.toml
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/build.rs
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/src/lib.rs
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/src/msg.rs
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/src/msg/rmw.rs
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/EStopStatus.idl
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/VehicleState.idl
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/EStopStatus.msg
@@ -226,6 +234,7 @@ writing manifest file 'safety_manager.egg-info/SOURCES.txt'
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/ament_cmake_export_targets-extras.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/rosidl_cmake_aggregate_target-extras.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_managerConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_managerConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.xml
@@ -233,14 +242,17 @@ writing manifest file 'safety_manager.egg-info/SOURCES.txt'
 -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_fastrtps_c.so
 -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_fastrtps_c.so" to ""
 -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_fastrtps_cpp.so" to ""
 -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_introspection_c.so
 -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_introspection_c.so" to ""
 -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_c.so
 -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_c.so" to ""
 -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_introspection_cpp.so" to ""
 -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_cpp.so
-Listing 'lib/python3.11/site-packages/safety_manager'...
-Can't list 'lib/python3.11/site-packages/safety_manager'
+-- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_cpp.so" to ""
+Listing '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager'...
+Listing '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg'...
 -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_generator_py.so
 -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_generator_py.so" to ""
 -- Up-to-date: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_generator_cExport.cmake
@@ -260,7 +272,7 @@ Can't list 'lib/python3.11/site-packages/safety_manager'
 -- Up-to-date: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_manager__rosidl_typesupport_cppExport-release.cmake
 -- Up-to-date: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_generator_pyExport.cmake
 -- Up-to-date: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_generator_pyExport-release.cmake
-Finished <<< safety_manager [0.59s]
+Finished <<< safety_manager [0.60s]
 Starting >>> sensor_fusion
 [ 40%] Built target ekf_core
 [100%] Built target ekf_node
@@ -309,7 +321,7 @@ Starting >>> zed_interface
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/cmake/zed_interfaceConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/cmake/zed_interfaceConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.xml
-Finished <<< zed_interface [0.24s]
+Finished <<< zed_interface [0.27s]
 Starting >>> controller
 [ 57%] Built target steering_controllers
 [100%] Built target pure_pursuit_node
@@ -333,7 +345,7 @@ Starting >>> controller
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/cmake/controllerConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/cmake/controllerConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.xml
-Finished <<< controller [0.37s]
+Finished <<< controller [0.27s]
 Starting >>> diagnostics
 [ 40%] Built target gpu_cpu_monitor
 [100%] Built target system_health_node
@@ -360,7 +372,7 @@ Starting >>> diagnostics
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.xml
-Finished <<< diagnostics [0.28s]
+Finished <<< diagnostics [0.23s]
 Starting >>> recovery_manager
 [ 40%] Built target dwa_planner
 [100%] Built target recovery_manager_node
@@ -384,6 +396,6 @@ Starting >>> recovery_manager
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/cmake/recovery_managerConfig.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/cmake/recovery_managerConfig-version.cmake
 -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.xml
-Finished <<< recovery_manager [0.35s]
+Finished <<< recovery_manager [0.29s]
 
-Summary: 11 packages finished [3.72s]
+Summary: 11 packages finished [3.13s]
