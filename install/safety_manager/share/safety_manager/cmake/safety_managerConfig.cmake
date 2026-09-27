@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager/ament_cmake_core/safety_managerConfig.cmake

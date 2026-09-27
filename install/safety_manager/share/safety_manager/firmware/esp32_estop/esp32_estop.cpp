@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager/firmware/esp32_estop/esp32_estop.cpp

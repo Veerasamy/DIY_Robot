@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/src/diagnostics/scripts/gpu_profile.py

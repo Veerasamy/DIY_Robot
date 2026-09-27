@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager/rosidl_typesupport_introspection_cpp/safety_manager/msg/detail/vehicle_state__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/ament_cmake_core/diagnosticsConfig.cmake

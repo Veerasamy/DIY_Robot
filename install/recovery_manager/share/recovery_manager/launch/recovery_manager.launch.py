@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/src/recovery_manager/launch/recovery_manager.launch.py

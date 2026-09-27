@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/ament_cmake_core/controllerConfig-version.cmake

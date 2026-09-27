@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface/ament_cmake_core/encoder_interfaceConfig.cmake

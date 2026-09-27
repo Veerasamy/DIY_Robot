@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/src/obstacle_detection/launch/obstacle_detection.launch.py

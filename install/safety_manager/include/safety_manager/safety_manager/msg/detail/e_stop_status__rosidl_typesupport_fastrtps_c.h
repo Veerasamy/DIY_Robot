@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager/rosidl_typesupport_fastrtps_c/safety_manager/msg/detail/e_stop_status__rosidl_typesupport_fastrtps_c.h

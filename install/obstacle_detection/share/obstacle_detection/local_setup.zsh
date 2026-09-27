@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/ament_cmake_environment_hooks/local_setup.zsh

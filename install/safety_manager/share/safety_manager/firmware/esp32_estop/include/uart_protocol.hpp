@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager/firmware/esp32_estop/include/uart_protocol.hpp

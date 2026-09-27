@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager/rosidl_typesupport_fastrtps_cpp/safety_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

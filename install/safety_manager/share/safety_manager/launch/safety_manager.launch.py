@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager/launch/safety_manager.launch.py

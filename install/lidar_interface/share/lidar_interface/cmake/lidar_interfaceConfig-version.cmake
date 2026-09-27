@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface/ament_cmake_core/lidar_interfaceConfig-version.cmake

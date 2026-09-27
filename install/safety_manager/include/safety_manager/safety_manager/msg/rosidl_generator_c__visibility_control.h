@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager/rosidl_generator_c/safety_manager/msg/rosidl_generator_c__visibility_control.h

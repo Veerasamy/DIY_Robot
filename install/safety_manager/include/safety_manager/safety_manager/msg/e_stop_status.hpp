@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager/rosidl_generator_cpp/safety_manager/msg/e_stop_status.hpp

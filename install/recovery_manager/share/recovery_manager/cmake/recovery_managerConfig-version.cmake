@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager/ament_cmake_core/recovery_managerConfig-version.cmake

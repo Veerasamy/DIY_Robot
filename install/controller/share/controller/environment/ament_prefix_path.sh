@@ -1,0 +1,1 @@
+/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh

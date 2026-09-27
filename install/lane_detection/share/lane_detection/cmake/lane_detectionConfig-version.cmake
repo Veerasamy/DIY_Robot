@@ -1,0 +1,1 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection/ament_cmake_core/lane_detectionConfig-version.cmake
