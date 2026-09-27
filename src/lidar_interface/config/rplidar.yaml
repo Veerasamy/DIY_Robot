@@ -1,0 +1,9 @@
+rplidar_node:
+  ros__parameters:
+    channel_type: "serial"
+    serial_port: "/dev/rplidar"   # udev rule recommended: symlink by idVendor/idProduct, see README
+    serial_baudrate: 115200        # A1/A2: 115200; A3/S1: 256000 — confirm for your model
+    frame_id: "laser_frame"
+    inverted: false
+    angle_compensate: true
+    scan_mode: "Standard"

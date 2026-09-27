@@ -1,0 +1,11 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/uninstall.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/controller_uninstall.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/steering_controllers.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/pure_pursuit_node.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/test.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/edit_cache.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/rebuild_cache.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/list_install_components.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/install.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/install/local.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/controller/CMakeFiles/install/strip.dir

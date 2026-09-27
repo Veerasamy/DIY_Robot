@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager/rosidl_generator_py/safety_manager/safety_manager_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "safety_manager_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/safety_manager")

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from safety_manager/msg/VehicleState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module safety_manager {
+  module msg {
+    module VehicleState_Constants {
+      const uint8 NORMAL = 0;
+      const uint8 AVOID = 1;
+      const uint8 BRAKE = 2;
+      const uint8 REVERSE = 3;
+      const uint8 RECOVER = 4;
+      const uint8 EMERGENCY_STOP = 5;
+    };
+    @verbatim (language="comment", text=
+      "Arbitrated vehicle safety state. safety_manager is the only node allowed" "\n"
+      "to publish this; all actuation nodes must gate their outputs on it.")
+    struct VehicleState {
+      builtin_interfaces::msg::Time stamp;
+
+      uint8 state;
+
+      string reason;
+    };
+  };
+};

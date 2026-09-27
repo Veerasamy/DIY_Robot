@@ -1,0 +1,11 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/uninstall.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/diagnostics_uninstall.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/gpu_cpu_monitor.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/system_health_node.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/test.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/edit_cache.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/rebuild_cache.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/list_install_components.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/install.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/install/local.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics/CMakeFiles/install/strip.dir

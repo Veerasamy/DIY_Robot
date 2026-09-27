@@ -1,0 +1,10 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/uninstall.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/zed_interface_uninstall.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/zed_interface_node.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/test.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/edit_cache.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/rebuild_cache.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/list_install_components.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/install.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/install/local.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface/CMakeFiles/install/strip.dir

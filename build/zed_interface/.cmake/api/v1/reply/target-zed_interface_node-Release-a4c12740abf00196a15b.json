@@ -1,0 +1,3416 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "zed_interface_node"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"target_link_libraries",
+			"ament_target_dependencies",
+			"find_package",
+			"set_target_properties",
+			"include",
+			"add_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/cmake-4.4/Modules/FindCUDAToolkit.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/image_transport/cmake/export_image_transportExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/image_transport/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/image_transport/cmake/image_transportConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_ros/cmake/export_tf2_rosExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_ros/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_ros/cmake/tf2_rosConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake/rclcppExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake/rclcppConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp_action/cmake/rclcpp_actionExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp_action/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp_action/cmake/rclcpp_actionConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tracetools/cmake/tracetools_exportExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tracetools/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tracetools/cmake/tracetoolsConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rcl/cmake/rclExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rcl/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rcl/cmake/rclConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake/sensor_msgsConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/message_filters/cmake/message_filtersExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/message_filters/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/message_filters/cmake/message_filtersConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_msgs/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_msgs/cmake/tf2_msgsConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cppExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cppExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cppExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_typesupport_cpp/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cppConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_cExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rcutils/cmake/rcutilsExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_geometry_msgs/cmake/export_tf2_geometry_msgsExport.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 146,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1362,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 10
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 9,
+				"parent" : 12
+			},
+			{
+				"file" : 3,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 61,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"file" : 8,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 17
+			},
+			{
+				"file" : 7,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 9,
+				"parent" : 19
+			},
+			{
+				"file" : 6,
+				"parent" : 20
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 61,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 11,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 41,
+				"parent" : 24
+			},
+			{
+				"file" : 10,
+				"parent" : 25
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 9,
+				"parent" : 26
+			},
+			{
+				"file" : 9,
+				"parent" : 27
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 61,
+				"parent" : 28
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 17
+			},
+			{
+				"file" : 15,
+				"parent" : 30
+			},
+			{
+				"command" : 4,
+				"file" : 15,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"file" : 14,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 33
+			},
+			{
+				"file" : 13,
+				"parent" : 34
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 9,
+				"parent" : 35
+			},
+			{
+				"file" : 12,
+				"parent" : 36
+			},
+			{
+				"command" : 5,
+				"file" : 12,
+				"line" : 61,
+				"parent" : 37
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 41,
+				"parent" : 24
+			},
+			{
+				"file" : 19,
+				"parent" : 39
+			},
+			{
+				"command" : 4,
+				"file" : 19,
+				"line" : 21,
+				"parent" : 40
+			},
+			{
+				"file" : 18,
+				"parent" : 41
+			},
+			{
+				"command" : 6,
+				"file" : 18,
+				"line" : 41,
+				"parent" : 42
+			},
+			{
+				"file" : 17,
+				"parent" : 43
+			},
+			{
+				"command" : 6,
+				"file" : 17,
+				"line" : 9,
+				"parent" : 44
+			},
+			{
+				"file" : 16,
+				"parent" : 45
+			},
+			{
+				"command" : 5,
+				"file" : 16,
+				"line" : 61,
+				"parent" : 46
+			},
+			{
+				"command" : 4,
+				"file" : 19,
+				"line" : 21,
+				"parent" : 40
+			},
+			{
+				"file" : 24,
+				"parent" : 48
+			},
+			{
+				"command" : 6,
+				"file" : 24,
+				"line" : 41,
+				"parent" : 49
+			},
+			{
+				"file" : 23,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 23,
+				"line" : 21,
+				"parent" : 51
+			},
+			{
+				"file" : 22,
+				"parent" : 52
+			},
+			{
+				"command" : 6,
+				"file" : 22,
+				"line" : 41,
+				"parent" : 53
+			},
+			{
+				"file" : 21,
+				"parent" : 54
+			},
+			{
+				"command" : 6,
+				"file" : 21,
+				"line" : 9,
+				"parent" : 55
+			},
+			{
+				"file" : 20,
+				"parent" : 56
+			},
+			{
+				"command" : 5,
+				"file" : 20,
+				"line" : 61,
+				"parent" : 57
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 27,
+				"parent" : 59
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 41,
+				"parent" : 60
+			},
+			{
+				"file" : 26,
+				"parent" : 61
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 9,
+				"parent" : 62
+			},
+			{
+				"file" : 25,
+				"parent" : 63
+			},
+			{
+				"command" : 5,
+				"file" : 25,
+				"line" : 61,
+				"parent" : 64
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 9,
+				"parent" : 62
+			},
+			{
+				"file" : 28,
+				"parent" : 66
+			},
+			{
+				"command" : 5,
+				"file" : 28,
+				"line" : 61,
+				"parent" : 67
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 9,
+				"parent" : 62
+			},
+			{
+				"file" : 29,
+				"parent" : 69
+			},
+			{
+				"command" : 5,
+				"file" : 29,
+				"line" : 61,
+				"parent" : 70
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 9,
+				"parent" : 62
+			},
+			{
+				"file" : 30,
+				"parent" : 72
+			},
+			{
+				"command" : 5,
+				"file" : 30,
+				"line" : 61,
+				"parent" : 73
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 9,
+				"parent" : 62
+			},
+			{
+				"file" : 31,
+				"parent" : 75
+			},
+			{
+				"command" : 5,
+				"file" : 31,
+				"line" : 61,
+				"parent" : 76
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 10
+			},
+			{
+				"file" : 35,
+				"parent" : 78
+			},
+			{
+				"command" : 4,
+				"file" : 35,
+				"line" : 21,
+				"parent" : 79
+			},
+			{
+				"file" : 34,
+				"parent" : 80
+			},
+			{
+				"command" : 6,
+				"file" : 34,
+				"line" : 41,
+				"parent" : 81
+			},
+			{
+				"file" : 33,
+				"parent" : 82
+			},
+			{
+				"command" : 6,
+				"file" : 33,
+				"line" : 9,
+				"parent" : 83
+			},
+			{
+				"file" : 32,
+				"parent" : 84
+			},
+			{
+				"command" : 5,
+				"file" : 32,
+				"line" : 61,
+				"parent" : 85
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 9,
+				"parent" : 62
+			},
+			{
+				"file" : 36,
+				"parent" : 87
+			},
+			{
+				"command" : 5,
+				"file" : 36,
+				"line" : 61,
+				"parent" : 88
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 9,
+				"parent" : 62
+			},
+			{
+				"file" : 37,
+				"parent" : 90
+			},
+			{
+				"command" : 5,
+				"file" : 37,
+				"line" : 61,
+				"parent" : 91
+			},
+			{
+				"command" : 4,
+				"file" : 15,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"file" : 40,
+				"parent" : 93
+			},
+			{
+				"command" : 6,
+				"file" : 40,
+				"line" : 41,
+				"parent" : 94
+			},
+			{
+				"file" : 39,
+				"parent" : 95
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 96
+			},
+			{
+				"file" : 38,
+				"parent" : 97
+			},
+			{
+				"command" : 5,
+				"file" : 38,
+				"line" : 61,
+				"parent" : 98
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 96
+			},
+			{
+				"file" : 41,
+				"parent" : 100
+			},
+			{
+				"command" : 5,
+				"file" : 41,
+				"line" : 61,
+				"parent" : 101
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 96
+			},
+			{
+				"file" : 42,
+				"parent" : 103
+			},
+			{
+				"command" : 5,
+				"file" : 42,
+				"line" : 61,
+				"parent" : 104
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 96
+			},
+			{
+				"file" : 43,
+				"parent" : 106
+			},
+			{
+				"command" : 5,
+				"file" : 43,
+				"line" : 61,
+				"parent" : 107
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 96
+			},
+			{
+				"file" : 44,
+				"parent" : 109
+			},
+			{
+				"command" : 5,
+				"file" : 44,
+				"line" : 61,
+				"parent" : 110
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 96
+			},
+			{
+				"file" : 45,
+				"parent" : 112
+			},
+			{
+				"command" : 5,
+				"file" : 45,
+				"line" : 61,
+				"parent" : 113
+			},
+			{
+				"command" : 4,
+				"file" : 19,
+				"line" : 21,
+				"parent" : 40
+			},
+			{
+				"file" : 50,
+				"parent" : 115
+			},
+			{
+				"command" : 6,
+				"file" : 50,
+				"line" : 41,
+				"parent" : 116
+			},
+			{
+				"file" : 49,
+				"parent" : 117
+			},
+			{
+				"command" : 4,
+				"file" : 49,
+				"line" : 21,
+				"parent" : 118
+			},
+			{
+				"file" : 48,
+				"parent" : 119
+			},
+			{
+				"command" : 6,
+				"file" : 48,
+				"line" : 41,
+				"parent" : 120
+			},
+			{
+				"file" : 47,
+				"parent" : 121
+			},
+			{
+				"command" : 6,
+				"file" : 47,
+				"line" : 9,
+				"parent" : 122
+			},
+			{
+				"file" : 46,
+				"parent" : 123
+			},
+			{
+				"command" : 5,
+				"file" : 46,
+				"line" : 61,
+				"parent" : 124
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 96
+			},
+			{
+				"file" : 51,
+				"parent" : 126
+			},
+			{
+				"command" : 5,
+				"file" : 51,
+				"line" : 61,
+				"parent" : 127
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1352,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 49,
+				"line" : 21,
+				"parent" : 118
+			},
+			{
+				"file" : 56,
+				"parent" : 130
+			},
+			{
+				"command" : 6,
+				"file" : 56,
+				"line" : 41,
+				"parent" : 131
+			},
+			{
+				"file" : 55,
+				"parent" : 132
+			},
+			{
+				"command" : 4,
+				"file" : 55,
+				"line" : 21,
+				"parent" : 133
+			},
+			{
+				"file" : 54,
+				"parent" : 134
+			},
+			{
+				"command" : 6,
+				"file" : 54,
+				"line" : 41,
+				"parent" : 135
+			},
+			{
+				"file" : 53,
+				"parent" : 136
+			},
+			{
+				"command" : 6,
+				"file" : 53,
+				"line" : 9,
+				"parent" : 137
+			},
+			{
+				"file" : 52,
+				"parent" : 138
+			},
+			{
+				"command" : 5,
+				"file" : 52,
+				"line" : 61,
+				"parent" : 139
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 59,
+				"parent" : 141
+			},
+			{
+				"command" : 6,
+				"file" : 59,
+				"line" : 41,
+				"parent" : 142
+			},
+			{
+				"file" : 58,
+				"parent" : 143
+			},
+			{
+				"command" : 6,
+				"file" : 58,
+				"line" : 9,
+				"parent" : 144
+			},
+			{
+				"file" : 57,
+				"parent" : 145
+			},
+			{
+				"command" : 5,
+				"file" : 57,
+				"line" : 61,
+				"parent" : 146
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 142,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "CUDA::cudart::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_calib3d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_core::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_features2d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_flann::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_gapi::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_highgui::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_imgcodecs::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_imgproc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_objdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_photo::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_stitching::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_video::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_videoio::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_alphamat::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_aruco::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_bgsegm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_bioinspired::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ccalib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_cvv::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_datasets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn_objdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn_superres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dpm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_face::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_freetype::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_fuzzy::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_hdf::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_hfs::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_img_hash::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_intensity_transform::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_line_descriptor::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_mcc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_optflow::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_phase_unwrapping::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_plot::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_quality::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_rapid::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_reg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_rgbd::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_saliency::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_shape::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_signal::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_stereo::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_structured_light::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_superres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_surface_matching::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_text::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_tracking::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_videostab::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_wechat_qrcode::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xfeatures2d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ximgproc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xobjdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xphoto::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_calib3d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_core::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_features2d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_flann::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_gapi::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_highgui::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_imgcodecs::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_imgproc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_objdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_photo::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_stitching::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_video::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_videoio::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_alphamat::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_aruco::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_bgsegm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_bioinspired::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ccalib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_cvv::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_datasets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn_objdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn_superres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dpm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_face::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_freetype::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_fuzzy::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_hdf::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_hfs::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_img_hash::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_intensity_transform::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_line_descriptor::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_mcc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_optflow::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_phase_unwrapping::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_plot::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_quality::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_rapid::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_reg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_rgbd::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_saliency::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_shape::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_signal::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_stereo::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_structured_light::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_superres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_surface_matching::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_text::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_tracking::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_videostab::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_wechat_qrcode::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xfeatures2d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ximgproc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xobjdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xphoto::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "rclcpp::rclcpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs_library::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "cv_bridge::cv_bridge::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "image_transport::image_transport::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tf2::tf2::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tf2_ros::tf2_ros::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tf2_ros::static_transform_broadcaster_node::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tf2_geometry_msgs::tf2_geometry_msgs::@6890427a1f51a3e7e1df"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu++17"
+				},
+				{
+					"backtrace" : 148,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 148,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 148,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 148,
+					"fragment" : "-O3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "FASTCDR_DYN_LINK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 149,
+					"path" : "/mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/include"
+				},
+				{
+					"backtrace" : 149,
+					"path" : "/usr/local/zed/include"
+				},
+				{
+					"backtrace" : 150,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/opencv4"
+				},
+				{
+					"backtrace" : 151,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rclcpp"
+				},
+				{
+					"backtrace" : 151,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/sensor_msgs"
+				},
+				{
+					"backtrace" : 151,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/nav_msgs"
+				},
+				{
+					"backtrace" : 151,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 151,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/cv_bridge"
+				},
+				{
+					"backtrace" : 151,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/image_transport"
+				},
+				{
+					"backtrace" : 151,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/tf2"
+				},
+				{
+					"backtrace" : 151,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/tf2_ros"
+				},
+				{
+					"backtrace" : 151,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/tf2_geometry_msgs"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/cuda/targets/x86_64-linux/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rcutils"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_typesupport_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rmw"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_dynamic_typesupport"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_typesupport_fastrtps_c"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_typesupport_introspection_c"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_typesupport_introspection_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/libstatistics_collector"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rcl"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rcl_interfaces"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/service_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rcl_logging_interface"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rcl_yaml_param_parser"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/type_description_interfaces"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rcpputils"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/statistics_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosgraph_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_typesupport_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rosidl_typesupport_c"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/tracetools"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/std_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/message_filters"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rclcpp_action"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/action_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/unique_identifier_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/rcl_action"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/tf2_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					5,
+					5
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "zed_interface_node::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-rpath-link,/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-rpath-link,/usr/lib/x86_64-linux-gnu",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--allow-shlib-undefined",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/zed/lib:/usr/local/cuda-12.2/targets/x86_64-linux/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/zed/lib/libsl_zed.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/cuda-12.2/targets/x86_64-linux/lib/libcudart.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_gapi.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_stitching.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_alphamat.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_aruco.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_bgsegm.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_bioinspired.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_ccalib.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_cvv.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_dnn_objdetect.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_dnn_superres.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_dpm.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_face.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_freetype.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_fuzzy.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_hdf.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_hfs.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_img_hash.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_intensity_transform.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_line_descriptor.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_mcc.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_quality.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_rapid.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_reg.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_rgbd.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_saliency.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_signal.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_stereo.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_structured_light.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_superres.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_surface_matching.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_tracking.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_videostab.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_wechat_qrcode.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_xfeatures2d.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_xobjdetect.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_xphoto.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libnav_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libnav_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcv_bridge.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libimage_transport.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstatic_transform_broadcaster_node.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/x86_64-conda-linux-gnu/sysroot/usr/lib/librt.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_shape.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_highgui.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_datasets.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_plot.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_text.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_ml.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_phase_unwrapping.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_optflow.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_ximgproc.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_video.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_videoio.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_objdetect.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_calib3d.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_dnn.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_features2d.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_flann.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_photo.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libnav_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libnav_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_imgcodecs.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_imgproc.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libopencv_core.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libsensor_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libsensor_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2_ros.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libmessage_filters.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librclcpp_action.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librclcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/liblibstatistics_collector.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosgraph_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosgraph_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosgraph_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstatistics_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstatistics_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_action.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_interfaces__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_yaml_param_parser.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtracetools.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "-llttng-ust",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "-llttng-ust-common",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "-rdynamic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcl_logging_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librmw_implementation.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libgeometry_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 65,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 68,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 74,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 77,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libtf2_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 86,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstd_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 89,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstd_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 92,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libaction_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libaction_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 65,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 68,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 74,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 77,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libaction_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libaction_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 99,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 102,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 105,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 108,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 111,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 65,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 65,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librmw.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosidl_dynamic_typesupport.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 65,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libfastcdr.so.2.2.7",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 74,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 89,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libservice_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 92,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libservice_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 114,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 125,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcpputils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 128,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 129,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 140,
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 147,
+				"fragment" : "/home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/liborocos-kdl.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"fragment" : "/usr/local/zed/lib/libsl_zed.so"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "CUDA::cudart::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_calib3d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_core::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_features2d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_flann::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_gapi::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_highgui::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_imgcodecs::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_imgproc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_objdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_photo::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_stitching::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_video::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_videoio::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_alphamat::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_aruco::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_bgsegm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_bioinspired::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ccalib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_cvv::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_datasets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn_objdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn_superres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dpm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_face::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_freetype::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_fuzzy::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_hdf::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_hfs::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_img_hash::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_intensity_transform::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_line_descriptor::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_mcc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_optflow::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_phase_unwrapping::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_plot::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_quality::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_rapid::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_reg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_rgbd::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_saliency::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_shape::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_signal::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_stereo::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_structured_light::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_superres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_surface_matching::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_text::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_tracking::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_videostab::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_wechat_qrcode::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xfeatures2d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ximgproc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xobjdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xphoto::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_calib3d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_core::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_features2d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_flann::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_gapi::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_highgui::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_imgcodecs::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_imgproc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_objdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_photo::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_stitching::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_video::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_videoio::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_alphamat::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_aruco::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_bgsegm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_bioinspired::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ccalib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_cvv::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_datasets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn_objdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dnn_superres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_dpm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_face::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_freetype::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_fuzzy::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_hdf::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_hfs::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_img_hash::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_intensity_transform::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_line_descriptor::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_mcc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_optflow::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_phase_unwrapping::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_plot::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_quality::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_rapid::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_reg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_rgbd::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_saliency::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_shape::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_signal::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_stereo::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_structured_light::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_superres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_surface_matching::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_text::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_tracking::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_videostab::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_wechat_qrcode::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xfeatures2d::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_ximgproc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xobjdetect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opencv_xphoto::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "rclcpp::rclcpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sensor_msgs::sensor_msgs_library::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nav_msgs::nav_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "cv_bridge::cv_bridge::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "image_transport::image_transport::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tf2::tf2::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tf2_ros::tf2_ros::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tf2_ros::static_transform_broadcaster_node::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tf2_geometry_msgs::tf2_geometry_msgs::@6890427a1f51a3e7e1df"
+		}
+	],
+	"name" : "zed_interface_node",
+	"nameOnDisk" : "zed_interface_node",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "src/zed_interface_node.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,839 @@
+[0.136s] colcon DEBUG Command line arguments: ['/home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.136s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78e778223800>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78e778223500>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78e778223500>>)
+[0.172s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.172s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.172s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.172s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.172s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.172s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.172s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/mnt/external/DIY/CameraModule/autonomous_rc'
+[0.172s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.172s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.172s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.172s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.172s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.172s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.172s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.172s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extension 'ignore'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extension 'ignore_ament_install'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extensions ['colcon_pkg']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extension 'colcon_pkg'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extensions ['colcon_meta']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extension 'colcon_meta'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extensions ['ros']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extension 'ros'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extensions ['cmake', 'python']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extension 'cmake'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extension 'python'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extensions ['python_setup_py']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(launch) by extension 'python_setup_py'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extension 'ignore'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extension 'ignore_ament_install'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extensions ['colcon_pkg']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extension 'colcon_pkg'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extensions ['colcon_meta']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extension 'colcon_meta'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extensions ['ros']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extension 'ros'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extensions ['cmake', 'python']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extension 'cmake'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extension 'python'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extensions ['python_setup_py']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(scripts) by extension 'python_setup_py'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/controller) by extension 'ignore'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/controller) by extension 'ignore_ament_install'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/controller) by extensions ['colcon_pkg']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/controller) by extension 'colcon_pkg'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/controller) by extensions ['colcon_meta']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/controller) by extension 'colcon_meta'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/controller) by extensions ['ros']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/controller) by extension 'ros'
+[0.207s] colcon.colcon_core.package_identification DEBUG Package 'src/controller' with type 'ros.ament_cmake' and name 'controller'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/diagnostics) by extension 'ignore'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/diagnostics) by extension 'ignore_ament_install'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/diagnostics) by extensions ['colcon_pkg']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/diagnostics) by extension 'colcon_pkg'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/diagnostics) by extensions ['colcon_meta']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/diagnostics) by extension 'colcon_meta'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/diagnostics) by extensions ['ros']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/diagnostics) by extension 'ros'
+[0.208s] colcon.colcon_core.package_identification DEBUG Package 'src/diagnostics' with type 'ros.ament_cmake' and name 'diagnostics'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/encoder_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/encoder_interface) by extension 'ignore'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/encoder_interface) by extension 'ignore_ament_install'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/encoder_interface) by extensions ['colcon_pkg']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/encoder_interface) by extension 'colcon_pkg'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/encoder_interface) by extensions ['colcon_meta']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/encoder_interface) by extension 'colcon_meta'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/encoder_interface) by extensions ['ros']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/encoder_interface) by extension 'ros'
+[0.209s] colcon.colcon_core.package_identification DEBUG Package 'src/encoder_interface' with type 'ros.ament_cmake' and name 'encoder_interface'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/lane_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/lane_detection) by extension 'ignore'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/lane_detection) by extension 'ignore_ament_install'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/lane_detection) by extensions ['colcon_pkg']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/lane_detection) by extension 'colcon_pkg'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/lane_detection) by extensions ['colcon_meta']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/lane_detection) by extension 'colcon_meta'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/lane_detection) by extensions ['ros']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/lane_detection) by extension 'ros'
+[0.210s] colcon.colcon_core.package_identification DEBUG Package 'src/lane_detection' with type 'ros.ament_cmake' and name 'lane_detection'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/lidar_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/lidar_interface) by extension 'ignore'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/lidar_interface) by extension 'ignore_ament_install'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/lidar_interface) by extensions ['colcon_pkg']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/lidar_interface) by extension 'colcon_pkg'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/lidar_interface) by extensions ['colcon_meta']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/lidar_interface) by extension 'colcon_meta'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/lidar_interface) by extensions ['ros']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/lidar_interface) by extension 'ros'
+[0.211s] colcon.colcon_core.package_identification DEBUG Package 'src/lidar_interface' with type 'ros.ament_cmake' and name 'lidar_interface'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/obstacle_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/obstacle_detection) by extension 'ignore'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/obstacle_detection) by extension 'ignore_ament_install'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/obstacle_detection) by extensions ['colcon_pkg']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/obstacle_detection) by extension 'colcon_pkg'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/obstacle_detection) by extensions ['colcon_meta']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/obstacle_detection) by extension 'colcon_meta'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/obstacle_detection) by extensions ['ros']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/obstacle_detection) by extension 'ros'
+[0.212s] colcon.colcon_core.package_identification DEBUG Package 'src/obstacle_detection' with type 'ros.ament_cmake' and name 'obstacle_detection'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/planner) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/planner) by extension 'ignore'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/planner) by extension 'ignore_ament_install'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/planner) by extensions ['colcon_pkg']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/planner) by extension 'colcon_pkg'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/planner) by extensions ['colcon_meta']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/planner) by extension 'colcon_meta'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/planner) by extensions ['ros']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/planner) by extension 'ros'
+[0.213s] colcon.colcon_core.package_identification DEBUG Package 'src/planner' with type 'ros.ament_cmake' and name 'planner'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/recovery_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/recovery_manager) by extension 'ignore'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/recovery_manager) by extension 'ignore_ament_install'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/recovery_manager) by extensions ['colcon_pkg']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/recovery_manager) by extension 'colcon_pkg'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/recovery_manager) by extensions ['colcon_meta']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/recovery_manager) by extension 'colcon_meta'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/recovery_manager) by extensions ['ros']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/recovery_manager) by extension 'ros'
+[0.214s] colcon.colcon_core.package_identification DEBUG Package 'src/recovery_manager' with type 'ros.ament_cmake' and name 'recovery_manager'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/safety_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/safety_manager) by extension 'ignore'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/safety_manager) by extension 'ignore_ament_install'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/safety_manager) by extensions ['colcon_pkg']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/safety_manager) by extension 'colcon_pkg'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/safety_manager) by extensions ['colcon_meta']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/safety_manager) by extension 'colcon_meta'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/safety_manager) by extensions ['ros']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/safety_manager) by extension 'ros'
+[0.215s] colcon.colcon_core.package_identification DEBUG Package 'src/safety_manager' with type 'ros.ament_cmake' and name 'safety_manager'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/sensor_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/sensor_fusion) by extension 'ignore'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/sensor_fusion) by extension 'ignore_ament_install'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/sensor_fusion) by extensions ['colcon_pkg']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/sensor_fusion) by extension 'colcon_pkg'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/sensor_fusion) by extensions ['colcon_meta']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/sensor_fusion) by extension 'colcon_meta'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/sensor_fusion) by extensions ['ros']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/sensor_fusion) by extension 'ros'
+[0.216s] colcon.colcon_core.package_identification DEBUG Package 'src/sensor_fusion' with type 'ros.ament_cmake' and name 'sensor_fusion'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/zed_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/zed_interface) by extension 'ignore'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/zed_interface) by extension 'ignore_ament_install'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/zed_interface) by extensions ['colcon_pkg']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/zed_interface) by extension 'colcon_pkg'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/zed_interface) by extensions ['colcon_meta']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/zed_interface) by extension 'colcon_meta'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/zed_interface) by extensions ['ros']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/zed_interface) by extension 'ros'
+[0.217s] colcon.colcon_core.package_identification DEBUG Package 'src/zed_interface' with type 'ros.ament_cmake' and name 'zed_interface'
+[0.217s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.217s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.217s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.217s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.217s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[0.232s] colcon.colcon_core.verb Level 5 set package 'encoder_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'encoder_interface' build argument 'cmake_target' from command line to 'None'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'encoder_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'encoder_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'encoder_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'encoder_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'encoder_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'encoder_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'encoder_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] colcon.colcon_core.verb DEBUG Building package 'encoder_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/encoder_interface', 'symlink_install': True, 'test_result_base': None}
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lane_detection' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lane_detection' build argument 'cmake_target' from command line to 'None'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lane_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lane_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lane_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lane_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lane_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lane_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lane_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] colcon.colcon_core.verb DEBUG Building package 'lane_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/lane_detection', 'symlink_install': True, 'test_result_base': None}
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lidar_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lidar_interface' build argument 'cmake_target' from command line to 'None'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lidar_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lidar_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lidar_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lidar_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lidar_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lidar_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] colcon.colcon_core.verb Level 5 set package 'lidar_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] colcon.colcon_core.verb DEBUG Building package 'lidar_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/lidar_interface', 'symlink_install': True, 'test_result_base': None}
+[0.234s] colcon.colcon_core.verb Level 5 set package 'obstacle_detection' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'obstacle_detection' build argument 'cmake_target' from command line to 'None'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'obstacle_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'obstacle_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'obstacle_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'obstacle_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'obstacle_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'obstacle_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'obstacle_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] colcon.colcon_core.verb DEBUG Building package 'obstacle_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/obstacle_detection', 'symlink_install': True, 'test_result_base': None}
+[0.234s] colcon.colcon_core.verb Level 5 set package 'planner' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'planner' build argument 'cmake_target' from command line to 'None'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] colcon.colcon_core.verb DEBUG Building package 'planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/planner', 'symlink_install': True, 'test_result_base': None}
+[0.234s] colcon.colcon_core.verb Level 5 set package 'safety_manager' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'safety_manager' build argument 'cmake_target' from command line to 'None'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'safety_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'safety_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'safety_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'safety_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'safety_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'safety_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'safety_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] colcon.colcon_core.verb DEBUG Building package 'safety_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager', 'symlink_install': True, 'test_result_base': None}
+[0.234s] colcon.colcon_core.verb Level 5 set package 'sensor_fusion' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.234s] colcon.colcon_core.verb Level 5 set package 'sensor_fusion' build argument 'cmake_target' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'sensor_fusion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'sensor_fusion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'sensor_fusion' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'sensor_fusion' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'sensor_fusion' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'sensor_fusion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'sensor_fusion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] colcon.colcon_core.verb DEBUG Building package 'sensor_fusion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/sensor_fusion', 'symlink_install': True, 'test_result_base': None}
+[0.235s] colcon.colcon_core.verb Level 5 set package 'zed_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'zed_interface' build argument 'cmake_target' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'zed_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'zed_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'zed_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'zed_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'zed_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'zed_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'zed_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] colcon.colcon_core.verb DEBUG Building package 'zed_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface', 'symlink_install': True, 'test_result_base': None}
+[0.235s] colcon.colcon_core.verb Level 5 set package 'controller' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'controller' build argument 'cmake_target' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] colcon.colcon_core.verb DEBUG Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/controller', 'symlink_install': True, 'test_result_base': None}
+[0.235s] colcon.colcon_core.verb Level 5 set package 'diagnostics' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'diagnostics' build argument 'cmake_target' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] colcon.colcon_core.verb Level 5 set package 'diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] colcon.colcon_core.verb DEBUG Building package 'diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/diagnostics', 'symlink_install': True, 'test_result_base': None}
+[0.236s] colcon.colcon_core.verb Level 5 set package 'recovery_manager' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.236s] colcon.colcon_core.verb Level 5 set package 'recovery_manager' build argument 'cmake_target' from command line to 'None'
+[0.236s] colcon.colcon_core.verb Level 5 set package 'recovery_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] colcon.colcon_core.verb Level 5 set package 'recovery_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] colcon.colcon_core.verb Level 5 set package 'recovery_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] colcon.colcon_core.verb Level 5 set package 'recovery_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] colcon.colcon_core.verb Level 5 set package 'recovery_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] colcon.colcon_core.verb Level 5 set package 'recovery_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] colcon.colcon_core.verb Level 5 set package 'recovery_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] colcon.colcon_core.verb DEBUG Building package 'recovery_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager', 'merge_install': False, 'path': '/mnt/external/DIY/CameraModule/autonomous_rc/src/recovery_manager', 'symlink_install': True, 'test_result_base': None}
+[0.236s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[0.237s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[0.237s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager' with build type 'ament_cmake'
+[0.237s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager'
+[0.239s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.239s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.244s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/encoder_interface' with build type 'ament_cmake'
+[0.244s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/encoder_interface'
+[0.244s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.244s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.246s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/lane_detection' with build type 'ament_cmake'
+[0.246s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/lane_detection'
+[0.247s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.249s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/lidar_interface' with build type 'ament_cmake'
+[0.249s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/lidar_interface'
+[0.249s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.252s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/obstacle_detection' with build type 'ament_cmake'
+[0.252s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/obstacle_detection'
+[0.252s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.254s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/planner' with build type 'ament_cmake'
+[0.254s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/planner'
+[0.254s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.257s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/sensor_fusion' with build type 'ament_cmake'
+[0.257s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/sensor_fusion'
+[0.257s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.259s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface' with build type 'ament_cmake'
+[0.259s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface'
+[0.260s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.266s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager
+[0.267s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/encoder_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface
+[0.268s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/lane_detection -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection
+[0.269s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/lidar_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface
+[0.272s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/obstacle_detection -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection
+[0.274s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/planner
+[0.275s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/sensor_fusion -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion
+[0.287s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface
+[2.552s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/lidar_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface
+[2.554s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface -- -j20 -l20
+[2.605s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/encoder_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface
+[2.606s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface -- -j20 -l20
+[2.629s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/planner
+[2.629s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/planner -- -j20 -l20
+[2.684s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/obstacle_detection -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection
+[2.685s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection -- -j20 -l20
+[3.028s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/lane_detection -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection
+[3.030s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection -- -j20 -l20
+[3.139s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/sensor_fusion -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion
+[3.140s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion -- -j20 -l20
+[3.613s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface
+[3.615s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface -- -j20 -l20
+[6.205s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager
+[6.206s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager -- -j20 -l20
+[12.486s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface -- -j20 -l20
+[12.499s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface
+[12.713s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(encoder_interface)
+[12.714s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface
+[12.718s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface' for CMake module files
+[12.719s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface' for CMake config files
+[12.719s] colcon.colcon_core.shell Level 1 create_environment_hook('encoder_interface', 'cmake_prefix_path')
+[12.719s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/hook/cmake_prefix_path.ps1'
+[12.721s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/hook/cmake_prefix_path.dsv'
+[12.722s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/hook/cmake_prefix_path.sh'
+[12.723s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/lib'
+[12.723s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/bin'
+[12.723s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/lib/pkgconfig/encoder_interface.pc'
+[12.725s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/lib/python3.12/site-packages'
+[12.725s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/bin'
+[12.725s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.ps1'
+[12.727s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.dsv'
+[12.728s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.sh'
+[12.729s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.bash'
+[12.731s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.zsh'
+[12.732s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/colcon-core/packages/encoder_interface)
+[12.733s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(encoder_interface)
+[12.733s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface' for CMake module files
+[12.733s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface' for CMake config files
+[12.733s] colcon.colcon_core.shell Level 1 create_environment_hook('encoder_interface', 'cmake_prefix_path')
+[12.734s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/hook/cmake_prefix_path.ps1'
+[12.734s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/hook/cmake_prefix_path.dsv'
+[12.735s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/hook/cmake_prefix_path.sh'
+[12.736s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/lib'
+[12.736s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/bin'
+[12.736s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/lib/pkgconfig/encoder_interface.pc'
+[12.736s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/lib/python3.12/site-packages'
+[12.736s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/bin'
+[12.737s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.ps1'
+[12.738s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.dsv'
+[12.738s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.sh'
+[12.739s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.bash'
+[12.740s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.zsh'
+[12.740s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/colcon-core/packages/encoder_interface)
+[18.047s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface -- -j20 -l20
+[18.048s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface
+[18.229s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(lidar_interface)
+[18.230s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface' for CMake module files
+[18.230s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface
+[18.231s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface' for CMake config files
+[18.232s] colcon.colcon_core.shell Level 1 create_environment_hook('lidar_interface', 'cmake_prefix_path')
+[18.232s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/hook/cmake_prefix_path.ps1'
+[18.233s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/hook/cmake_prefix_path.dsv'
+[18.234s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/hook/cmake_prefix_path.sh'
+[18.235s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/lib'
+[18.235s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/bin'
+[18.236s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/lib/pkgconfig/lidar_interface.pc'
+[18.236s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/lib/python3.12/site-packages'
+[18.237s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/bin'
+[18.237s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.ps1'
+[18.238s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.dsv'
+[18.239s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.sh'
+[18.240s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.bash'
+[18.241s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.zsh'
+[18.242s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/colcon-core/packages/lidar_interface)
+[18.243s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(lidar_interface)
+[18.243s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface' for CMake module files
+[18.243s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface' for CMake config files
+[18.244s] colcon.colcon_core.shell Level 1 create_environment_hook('lidar_interface', 'cmake_prefix_path')
+[18.244s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/hook/cmake_prefix_path.ps1'
+[18.245s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/hook/cmake_prefix_path.dsv'
+[18.245s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/hook/cmake_prefix_path.sh'
+[18.246s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/lib'
+[18.246s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/bin'
+[18.246s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/lib/pkgconfig/lidar_interface.pc'
+[18.246s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/lib/python3.12/site-packages'
+[18.247s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/bin'
+[18.247s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.ps1'
+[18.248s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.dsv'
+[18.249s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.sh'
+[18.249s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.bash'
+[18.250s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/lidar_interface/package.zsh'
+[18.250s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/lidar_interface/share/colcon-core/packages/lidar_interface)
+[22.585s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface -- -j20 -l20
+[22.587s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface
+[22.773s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(zed_interface)
+[22.774s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface' for CMake module files
+[22.774s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface
+[22.775s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface' for CMake config files
+[22.775s] colcon.colcon_core.shell Level 1 create_environment_hook('zed_interface', 'cmake_prefix_path')
+[22.775s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/hook/cmake_prefix_path.ps1'
+[22.776s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/hook/cmake_prefix_path.dsv'
+[22.777s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/hook/cmake_prefix_path.sh'
+[22.778s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/lib'
+[22.778s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/bin'
+[22.778s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/lib/pkgconfig/zed_interface.pc'
+[22.778s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/lib/python3.12/site-packages'
+[22.779s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/bin'
+[22.779s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.ps1'
+[22.781s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.dsv'
+[22.782s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.sh'
+[22.782s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.bash'
+[22.783s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.zsh'
+[22.784s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/colcon-core/packages/zed_interface)
+[22.786s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(zed_interface)
+[22.786s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface' for CMake module files
+[22.787s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface' for CMake config files
+[22.787s] colcon.colcon_core.shell Level 1 create_environment_hook('zed_interface', 'cmake_prefix_path')
+[22.787s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/hook/cmake_prefix_path.ps1'
+[22.788s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/hook/cmake_prefix_path.dsv'
+[22.788s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/hook/cmake_prefix_path.sh'
+[22.789s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/lib'
+[22.789s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/bin'
+[22.789s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/lib/pkgconfig/zed_interface.pc'
+[22.790s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/lib/python3.12/site-packages'
+[22.790s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/bin'
+[22.790s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.ps1'
+[22.791s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.dsv'
+[22.792s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.sh'
+[22.792s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.bash'
+[22.793s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.zsh'
+[22.794s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/colcon-core/packages/zed_interface)
+[28.415s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection -- -j20 -l20
+[28.417s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection
+[28.532s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager -- -j20 -l20
+[28.534s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager
+[28.583s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(lane_detection)
+[28.584s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection' for CMake module files
+[28.584s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection
+[28.585s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection' for CMake config files
+[28.586s] colcon.colcon_core.shell Level 1 create_environment_hook('lane_detection', 'cmake_prefix_path')
+[28.586s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/hook/cmake_prefix_path.ps1'
+[28.587s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/hook/cmake_prefix_path.dsv'
+[28.588s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/hook/cmake_prefix_path.sh'
+[28.589s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/lib'
+[28.589s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/bin'
+[28.589s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/lib/pkgconfig/lane_detection.pc'
+[28.589s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/lib/python3.12/site-packages'
+[28.590s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/bin'
+[28.590s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.ps1'
+[28.591s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.dsv'
+[28.592s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.sh'
+[28.593s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.bash'
+[28.594s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.zsh'
+[28.594s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/colcon-core/packages/lane_detection)
+[28.595s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(lane_detection)
+[28.595s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection' for CMake module files
+[28.596s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection' for CMake config files
+[28.596s] colcon.colcon_core.shell Level 1 create_environment_hook('lane_detection', 'cmake_prefix_path')
+[28.596s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/hook/cmake_prefix_path.ps1'
+[28.597s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/hook/cmake_prefix_path.dsv'
+[28.597s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/hook/cmake_prefix_path.sh'
+[28.598s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/lib'
+[28.598s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/bin'
+[28.598s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/lib/pkgconfig/lane_detection.pc'
+[28.598s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/lib/python3.12/site-packages'
+[28.599s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/bin'
+[28.599s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.ps1'
+[28.600s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.dsv'
+[28.601s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.sh'
+[28.602s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.bash'
+[28.602s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.zsh'
+[28.604s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/colcon-core/packages/lane_detection)
+[29.029s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/planner -- -j20 -l20
+[29.031s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/planner
+[29.189s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(planner)
+[29.190s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner' for CMake module files
+[29.190s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/planner
+[29.191s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner' for CMake config files
+[29.191s] colcon.colcon_core.shell Level 1 create_environment_hook('planner', 'cmake_prefix_path')
+[29.192s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/hook/cmake_prefix_path.ps1'
+[29.192s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/hook/cmake_prefix_path.dsv'
+[29.193s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/hook/cmake_prefix_path.sh'
+[29.194s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/lib'
+[29.194s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/bin'
+[29.194s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/lib/pkgconfig/planner.pc'
+[29.194s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/lib/python3.12/site-packages'
+[29.194s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/bin'
+[29.194s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.ps1'
+[29.195s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.dsv'
+[29.196s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.sh'
+[29.196s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.bash'
+[29.197s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.zsh'
+[29.197s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/colcon-core/packages/planner)
+[29.198s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(planner)
+[29.198s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner' for CMake module files
+[29.199s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner' for CMake config files
+[29.199s] colcon.colcon_core.shell Level 1 create_environment_hook('planner', 'cmake_prefix_path')
+[29.199s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/hook/cmake_prefix_path.ps1'
+[29.200s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/hook/cmake_prefix_path.dsv'
+[29.200s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/hook/cmake_prefix_path.sh'
+[29.201s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/lib'
+[29.201s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/bin'
+[29.201s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/lib/pkgconfig/planner.pc'
+[29.201s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/lib/python3.12/site-packages'
+[29.201s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/bin'
+[29.202s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.ps1'
+[29.202s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.dsv'
+[29.203s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.sh'
+[29.204s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.bash'
+[29.204s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.zsh'
+[29.205s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/colcon-core/packages/planner)
+[29.357s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(safety_manager)
+[29.357s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager' for CMake module files
+[29.357s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager
+[29.358s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager' for CMake config files
+[29.358s] colcon.colcon_core.shell Level 1 create_environment_hook('safety_manager', 'cmake_prefix_path')
+[29.358s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/cmake_prefix_path.ps1'
+[29.360s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/cmake_prefix_path.dsv'
+[29.360s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/cmake_prefix_path.sh'
+[29.361s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib'
+[29.362s] colcon.colcon_core.shell Level 1 create_environment_hook('safety_manager', 'ld_library_path_lib')
+[29.362s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/ld_library_path_lib.ps1'
+[29.363s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/ld_library_path_lib.dsv'
+[29.363s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/ld_library_path_lib.sh'
+[29.364s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/bin'
+[29.364s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/pkgconfig/safety_manager.pc'
+[29.365s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages'
+[29.365s] colcon.colcon_core.shell Level 1 create_environment_hook('safety_manager', 'pythonpath')
+[29.365s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/pythonpath.ps1'
+[29.366s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/pythonpath.dsv'
+[29.367s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/pythonpath.sh'
+[29.369s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/bin'
+[29.369s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.ps1'
+[29.370s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.dsv'
+[29.371s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.sh'
+[29.372s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.bash'
+[29.373s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.zsh'
+[29.373s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/colcon-core/packages/safety_manager)
+[29.374s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(safety_manager)
+[29.374s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager' for CMake module files
+[29.375s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager' for CMake config files
+[29.375s] colcon.colcon_core.shell Level 1 create_environment_hook('safety_manager', 'cmake_prefix_path')
+[29.375s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/cmake_prefix_path.ps1'
+[29.376s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/cmake_prefix_path.dsv'
+[29.377s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/cmake_prefix_path.sh'
+[29.377s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib'
+[29.377s] colcon.colcon_core.shell Level 1 create_environment_hook('safety_manager', 'ld_library_path_lib')
+[29.378s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/ld_library_path_lib.ps1'
+[29.378s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/ld_library_path_lib.dsv'
+[29.379s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/ld_library_path_lib.sh'
+[29.379s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/bin'
+[29.379s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/pkgconfig/safety_manager.pc'
+[29.380s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages'
+[29.380s] colcon.colcon_core.shell Level 1 create_environment_hook('safety_manager', 'pythonpath')
+[29.380s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/pythonpath.ps1'
+[29.381s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/pythonpath.dsv'
+[29.381s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/hook/pythonpath.sh'
+[29.382s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/bin'
+[29.382s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.ps1'
+[29.383s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.dsv'
+[29.384s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.sh'
+[29.385s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.bash'
+[29.385s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.zsh'
+[29.386s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/colcon-core/packages/safety_manager)
+[29.386s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/controller' with build type 'ament_cmake'
+[29.386s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/controller'
+[29.386s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.386s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[29.389s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/diagnostics' with build type 'ament_cmake'
+[29.389s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/diagnostics'
+[29.389s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.389s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[29.392s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/recovery_manager' with build type 'ament_cmake'
+[29.392s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/mnt/external/DIY/CameraModule/autonomous_rc/src/recovery_manager'
+[29.393s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.393s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[29.398s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/controller
+[29.399s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/diagnostics -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics
+[29.401s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/recovery_manager -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager
+[30.875s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion -- -j20 -l20
+[30.877s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion
+[31.044s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(sensor_fusion)
+[31.044s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion' for CMake module files
+[31.045s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion
+[31.045s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion' for CMake config files
+[31.045s] colcon.colcon_core.shell Level 1 create_environment_hook('sensor_fusion', 'cmake_prefix_path')
+[31.046s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/hook/cmake_prefix_path.ps1'
+[31.046s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/hook/cmake_prefix_path.dsv'
+[31.047s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/hook/cmake_prefix_path.sh'
+[31.048s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/lib'
+[31.048s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/bin'
+[31.048s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/lib/pkgconfig/sensor_fusion.pc'
+[31.049s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/lib/python3.12/site-packages'
+[31.049s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/bin'
+[31.050s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.ps1'
+[31.050s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.dsv'
+[31.051s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.sh'
+[31.052s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.bash'
+[31.052s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.zsh'
+[31.053s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/colcon-core/packages/sensor_fusion)
+[31.054s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(sensor_fusion)
+[31.054s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion' for CMake module files
+[31.055s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion' for CMake config files
+[31.055s] colcon.colcon_core.shell Level 1 create_environment_hook('sensor_fusion', 'cmake_prefix_path')
+[31.055s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/hook/cmake_prefix_path.ps1'
+[31.056s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/hook/cmake_prefix_path.dsv'
+[31.056s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/hook/cmake_prefix_path.sh'
+[31.057s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/lib'
+[31.057s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/bin'
+[31.057s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/lib/pkgconfig/sensor_fusion.pc'
+[31.057s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/lib/python3.12/site-packages'
+[31.058s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/bin'
+[31.058s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.ps1'
+[31.059s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.dsv'
+[31.059s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.sh'
+[31.060s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.bash'
+[31.060s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.zsh'
+[31.061s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/colcon-core/packages/sensor_fusion)
+[31.461s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/recovery_manager -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager
+[31.462s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager -- -j20 -l20
+[31.471s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/controller
+[31.472s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/controller -- -j20 -l20
+[31.498s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/diagnostics -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics
+[31.499s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics -- -j20 -l20
+[35.747s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection -- -j20 -l20
+[35.749s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection
+[35.917s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(obstacle_detection)
+[35.917s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection' for CMake module files
+[35.917s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection
+[35.918s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection' for CMake config files
+[35.919s] colcon.colcon_core.shell Level 1 create_environment_hook('obstacle_detection', 'cmake_prefix_path')
+[35.919s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/hook/cmake_prefix_path.ps1'
+[35.920s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/hook/cmake_prefix_path.dsv'
+[35.920s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/hook/cmake_prefix_path.sh'
+[35.921s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/lib'
+[35.921s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/bin'
+[35.921s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/lib/pkgconfig/obstacle_detection.pc'
+[35.922s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/lib/python3.12/site-packages'
+[35.922s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/bin'
+[35.922s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.ps1'
+[35.923s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.dsv'
+[35.924s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.sh'
+[35.924s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.bash'
+[35.925s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.zsh'
+[35.925s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/colcon-core/packages/obstacle_detection)
+[35.926s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(obstacle_detection)
+[35.927s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection' for CMake module files
+[35.927s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection' for CMake config files
+[35.927s] colcon.colcon_core.shell Level 1 create_environment_hook('obstacle_detection', 'cmake_prefix_path')
+[35.927s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/hook/cmake_prefix_path.ps1'
+[35.928s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/hook/cmake_prefix_path.dsv'
+[35.929s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/hook/cmake_prefix_path.sh'
+[35.929s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/lib'
+[35.929s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/bin'
+[35.929s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/lib/pkgconfig/obstacle_detection.pc'
+[35.930s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/lib/python3.12/site-packages'
+[35.930s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/bin'
+[35.930s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.ps1'
+[35.931s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.dsv'
+[35.932s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.sh'
+[35.932s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.bash'
+[35.933s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.zsh'
+[35.934s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/colcon-core/packages/obstacle_detection)
+[56.740s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager -- -j20 -l20
+[56.741s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager
+[56.906s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(recovery_manager)
+[56.906s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager' for CMake module files
+[56.907s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/recovery_manager
+[56.907s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager' for CMake config files
+[56.908s] colcon.colcon_core.shell Level 1 create_environment_hook('recovery_manager', 'cmake_prefix_path')
+[56.908s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/hook/cmake_prefix_path.ps1'
+[56.909s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/hook/cmake_prefix_path.dsv'
+[56.910s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/hook/cmake_prefix_path.sh'
+[56.911s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/lib'
+[56.911s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/bin'
+[56.911s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/lib/pkgconfig/recovery_manager.pc'
+[56.911s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/lib/python3.12/site-packages'
+[56.912s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/bin'
+[56.912s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.ps1'
+[56.913s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.dsv'
+[56.914s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.sh'
+[56.915s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.bash'
+[56.915s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.zsh'
+[56.916s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/colcon-core/packages/recovery_manager)
+[56.917s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(recovery_manager)
+[56.917s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager' for CMake module files
+[56.917s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager' for CMake config files
+[56.918s] colcon.colcon_core.shell Level 1 create_environment_hook('recovery_manager', 'cmake_prefix_path')
+[56.918s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/hook/cmake_prefix_path.ps1'
+[56.918s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/hook/cmake_prefix_path.dsv'
+[56.919s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/hook/cmake_prefix_path.sh'
+[56.920s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/lib'
+[56.920s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/bin'
+[56.920s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/lib/pkgconfig/recovery_manager.pc'
+[56.920s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/lib/python3.12/site-packages'
+[56.920s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/bin'
+[56.921s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.ps1'
+[56.921s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.dsv'
+[56.922s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.sh'
+[56.923s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.bash'
+[56.923s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/recovery_manager/package.zsh'
+[56.924s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/recovery_manager/share/colcon-core/packages/recovery_manager)
+[58.932s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/controller -- -j20 -l20
+[58.934s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/controller
+[59.040s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics -- -j20 -l20
+[59.042s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics
+[59.086s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(controller)
+[59.087s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller' for CMake module files
+[59.087s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/controller
+[59.088s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller' for CMake config files
+[59.088s] colcon.colcon_core.shell Level 1 create_environment_hook('controller', 'cmake_prefix_path')
+[59.089s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[59.089s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[59.090s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[59.091s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib'
+[59.092s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/bin'
+[59.092s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib/pkgconfig/controller.pc'
+[59.092s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib/python3.12/site-packages'
+[59.092s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/bin'
+[59.092s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.ps1'
+[59.093s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.dsv'
+[59.095s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.sh'
+[59.095s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.bash'
+[59.096s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.zsh'
+[59.097s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/colcon-core/packages/controller)
+[59.099s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(controller)
+[59.099s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller' for CMake module files
+[59.100s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller' for CMake config files
+[59.100s] colcon.colcon_core.shell Level 1 create_environment_hook('controller', 'cmake_prefix_path')
+[59.101s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[59.102s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[59.103s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[59.104s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib'
+[59.104s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/bin'
+[59.104s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib/pkgconfig/controller.pc'
+[59.105s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib/python3.12/site-packages'
+[59.106s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/bin'
+[59.106s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.ps1'
+[59.107s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.dsv'
+[59.107s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.sh'
+[59.108s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.bash'
+[59.109s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.zsh'
+[59.109s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/colcon-core/packages/controller)
+[59.252s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(diagnostics)
+[59.253s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics' for CMake module files
+[59.253s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/diagnostics
+[59.254s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics' for CMake config files
+[59.254s] colcon.colcon_core.shell Level 1 create_environment_hook('diagnostics', 'cmake_prefix_path')
+[59.254s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.ps1'
+[59.255s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.dsv'
+[59.255s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.sh'
+[59.256s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/lib'
+[59.256s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/bin'
+[59.256s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/lib/pkgconfig/diagnostics.pc'
+[59.257s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/lib/python3.12/site-packages'
+[59.257s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/bin'
+[59.257s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.ps1'
+[59.258s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.dsv'
+[59.259s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.sh'
+[59.259s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.bash'
+[59.260s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.zsh'
+[59.260s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/colcon-core/packages/diagnostics)
+[59.261s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(diagnostics)
+[59.261s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics' for CMake module files
+[59.262s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics' for CMake config files
+[59.262s] colcon.colcon_core.shell Level 1 create_environment_hook('diagnostics', 'cmake_prefix_path')
+[59.262s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.ps1'
+[59.263s] colcon.colcon_core.shell INFO Creating environment descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.dsv'
+[59.263s] colcon.colcon_core.shell INFO Creating environment hook '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/hook/cmake_prefix_path.sh'
+[59.264s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/lib'
+[59.264s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/bin'
+[59.264s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/lib/pkgconfig/diagnostics.pc'
+[59.264s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/lib/python3.12/site-packages'
+[59.264s] colcon.colcon_core.environment Level 1 checking '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/bin'
+[59.265s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.ps1'
+[59.265s] colcon.colcon_core.shell INFO Creating package descriptor '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.dsv'
+[59.266s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.sh'
+[59.267s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.bash'
+[59.267s] colcon.colcon_core.shell INFO Creating package script '/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/diagnostics/package.zsh'
+[59.268s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/mnt/external/DIY/CameraModule/autonomous_rc/install/diagnostics/share/colcon-core/packages/diagnostics)
+[59.269s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[59.269s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[59.269s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[59.269s] colcon.colcon_core.event_reactor DEBUG joining thread
+[59.269s] colcon.colcon_core.event_reactor DEBUG joined thread
+[59.270s] colcon.colcon_core.shell INFO Creating prefix script '/mnt/external/DIY/CameraModule/autonomous_rc/install/local_setup.ps1'
+[59.271s] colcon.colcon_core.shell INFO Creating prefix util module '/mnt/external/DIY/CameraModule/autonomous_rc/install/_local_setup_util_ps1.py'
+[59.272s] colcon.colcon_core.shell INFO Creating prefix chain script '/mnt/external/DIY/CameraModule/autonomous_rc/install/setup.ps1'
+[59.273s] colcon.colcon_core.shell INFO Creating prefix script '/mnt/external/DIY/CameraModule/autonomous_rc/install/local_setup.sh'
+[59.274s] colcon.colcon_core.shell INFO Creating prefix util module '/mnt/external/DIY/CameraModule/autonomous_rc/install/_local_setup_util_sh.py'
+[59.274s] colcon.colcon_core.shell INFO Creating prefix chain script '/mnt/external/DIY/CameraModule/autonomous_rc/install/setup.sh'
+[59.275s] colcon.colcon_core.shell INFO Creating prefix script '/mnt/external/DIY/CameraModule/autonomous_rc/install/local_setup.bash'
+[59.276s] colcon.colcon_core.shell INFO Creating prefix chain script '/mnt/external/DIY/CameraModule/autonomous_rc/install/setup.bash'
+[59.277s] colcon.colcon_core.shell INFO Creating prefix script '/mnt/external/DIY/CameraModule/autonomous_rc/install/local_setup.zsh'
+[59.277s] colcon.colcon_core.shell INFO Creating prefix chain script '/mnt/external/DIY/CameraModule/autonomous_rc/install/setup.zsh'

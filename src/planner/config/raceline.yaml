@@ -1,0 +1,11 @@
+# PLACEHOLDER raceline — replace with the actual course's optimized
+# waypoints before racing (see package README for the recommended offline
+# minimum-curvature/minimum-time workflow). This stand-in is just a 20m
+# straight line down the map-frame +x axis so the node has something to
+# blend against during bring-up testing.
+raceline:
+  - {x: 0.0,  y: 0.0, v: 3.0}
+  - {x: 5.0,  y: 0.0, v: 4.0}
+  - {x: 10.0, y: 0.0, v: 5.0}
+  - {x: 15.0, y: 0.0, v: 5.0}
+  - {x: 20.0, y: 0.0, v: 4.0}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsteering_controllers.a CMakeFiles/steering_controllers.dir/src/pure_pursuit_controller.cpp.o CMakeFiles/steering_controllers.dir/src/stanley_controller.cpp.o CMakeFiles/steering_controllers.dir/src/mpc_controller.cpp.o
+/usr/bin/ranlib libsteering_controllers.a

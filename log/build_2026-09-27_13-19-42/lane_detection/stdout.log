@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 15.3.0
+-- The CXX compiler identification is GNU 15.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.21 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcrypto.so (found version "3.6.4")
+-- Found FastRTPS: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/include (Required is at least version "2.13")
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/nav_msgs/cmake)
+-- Found cv_bridge: 4.1.0 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/cv_bridge/cmake)
+-- Found image_transport: 5.1.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/image_transport/cmake)
+-- Found OpenCV: /home/u_ramesa2/micromamba/envs/ros_env_jazzy (found version "4.13.0")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- lane_detection: OpenCV CUDA modules not found, building CPU-only path
+-- Found ament_lint_auto: 0.17.5 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /mnt/external/DIY/CameraModule/autonomous_rc/src/lane_detection/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection
+[ 20%] Building CXX object CMakeFiles/lane_detector.dir/src/lane_detector.cpp.o
+[ 40%] Linking CXX static library liblane_detector.a
+[ 40%] Built target lane_detector
+[ 80%] Building CXX object CMakeFiles/lane_detection_node.dir/src/lane_detection_node.cpp.o
+[ 80%] Building CXX object CMakeFiles/lane_detection_node.dir/src/main.cpp.o
+[100%] Linking CXX executable lane_detection_node
+[100%] Built target lane_detection_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/lib/lane_detection/lane_detection_node
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/lib/liblane_detector.a
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/launch/lane_detection.launch.py
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/ament_index/resource_index/package_run_dependencies/lane_detection
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/ament_index/resource_index/parent_prefix_path/lane_detection
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/environment/ament_prefix_path.sh
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/environment/ament_prefix_path.dsv
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/environment/path.sh
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/environment/path.dsv
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/local_setup.bash
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/local_setup.sh
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/local_setup.zsh
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/local_setup.dsv
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.dsv
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/ament_index/resource_index/packages/lane_detection
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/cmake/lane_detectionConfig.cmake
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/cmake/lane_detectionConfig-version.cmake
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/lane_detection/share/lane_detection/package.xml

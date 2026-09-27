@@ -1,0 +1,14 @@
+zed_interface:
+  ros__parameters:
+    # Speed Race Mode: maximize FPS, minimize latency. Depth+IMU+VO only.
+    resolution: "HD720"
+    camera_fps: 60
+    depth_mode: "PERFORMANCE"
+    depth_confidence: 50.0
+    depth_texture_confidence: 100.0
+    max_depth_m: 10.0
+    enable_point_cloud: false
+    enable_positional_tracking: true
+    enable_ground_plane: false
+    frame_id: "zed2i_camera_link"
+    odom_frame_id: "odom"

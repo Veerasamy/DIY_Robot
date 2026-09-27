@@ -1,0 +1,84 @@
+[0.018s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/sensor_fusion -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion
+[0.090s] -- The C compiler identification is GNU 15.3.0
+[0.219s] -- The CXX compiler identification is GNU 15.3.0
+[0.231s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.364s] -- Check for working C compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cc - skipped
+[0.365s] -- Detecting C compile features
+[0.365s] -- Detecting C compile features - done
+[0.383s] -- Detecting CXX compiler ABI info
+[0.620s] -- Detecting CXX compiler ABI info - done
+[0.648s] -- Check for working CXX compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/c++ - skipped
+[0.649s] -- Detecting CXX compile features
+[0.650s] -- Detecting CXX compile features - done
+[0.665s] -- Found ament_cmake: 2.5.6 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake/cmake)
+[0.851s] -- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+[0.963s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.018s] -- Found rclcpp: 28.1.21 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake)
+[1.092s] -- Found rosidl_generator_c: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_c/cmake)
+[1.120s] -- Found rosidl_generator_cpp: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_cpp/cmake)
+[1.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.186s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.341s] -- Found rmw_implementation_cmake: 7.3.3 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_implementation_cmake/cmake)
+[1.347s] -- Found rmw_fastrtps_cpp: 8.4.4 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.872s] -- Found OpenSSL: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcrypto.so (found version "3.6.4")
+[1.915s] -- Found FastRTPS: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/include (Required is at least version "2.13")
+[1.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.085s] -- Found nav_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/nav_msgs/cmake)
+[2.184s] -- Found sensor_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake)
+[2.221s] -- Found tf2: 0.36.22 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2/cmake)
+[2.229s] -- Found tf2_ros: 0.36.22 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_ros/cmake)
+[2.459s] -- Found tf2_geometry_msgs: 0.36.22 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_geometry_msgs/cmake)
+[2.480s] -- Found eigen3_cmake_module: 0.3.1 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/eigen3_cmake_module/cmake)
+[2.482s] -- Found Eigen3: TRUE (found version "5.0.1")
+[2.482s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.487s] -- Found Eigen3: TRUE
+[2.496s] -- Found ament_lint_auto: 0.17.5 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_lint_auto/cmake)
+[2.706s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.710s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.711s] -- Configured cppcheck include dirs: /mnt/external/DIY/CameraModule/autonomous_rc/src/sensor_fusion/include
+[2.711s] -- Configured cppcheck exclude dirs and/or files: 
+[2.712s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.713s] -- Configured cpplint exclude dirs and/or files: 
+[2.715s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.715s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.716s] -- Added test 'lint_cmake' to check CMake code style
+[2.716s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.718s] -- Added test 'uncrustify' to check C / C++ code style
+[2.719s] -- Configured uncrustify additional arguments: 
+[2.720s] -- Added test 'xmllint' to check XML markup files
+[2.727s] -- Configuring done (2.7s)
+[2.774s] -- Generating done (0.0s)
+[2.867s] -- Build files have been written to: /mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion
+[2.882s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/sensor_fusion -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion
+[2.883s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion -- -j20 -l20
+[2.943s] [ 20%] Building CXX object CMakeFiles/ekf_core.dir/src/ekf.cpp.o
+[7.363s] [ 40%] Linking CXX static library libekf_core.a
+[7.405s] [ 40%] Built target ekf_core
+[7.437s] [ 60%] Building CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o
+[7.437s] [ 80%] Building CXX object CMakeFiles/ekf_node.dir/src/main.cpp.o
+[30.372s] [100%] Linking CXX executable ekf_node
+[30.608s] [100%] Built target ekf_node
+[30.618s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion -- -j20 -l20
+[30.620s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion
+[30.628s] -- Install configuration: "Release"
+[30.629s] -- Execute custom install script
+[30.629s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/lib/sensor_fusion/ekf_node
+[30.639s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/lib/libekf_core.a
+[30.648s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/launch/sensor_fusion.launch.py
+[30.658s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/ament_index/resource_index/package_run_dependencies/sensor_fusion
+[30.667s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/ament_index/resource_index/parent_prefix_path/sensor_fusion
+[30.676s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.sh
+[30.684s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.dsv
+[30.691s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/environment/path.sh
+[30.699s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/environment/path.dsv
+[30.709s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/local_setup.bash
+[30.719s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/local_setup.sh
+[30.727s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/local_setup.zsh
+[30.734s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/local_setup.dsv
+[30.743s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.dsv
+[30.753s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/ament_index/resource_index/packages/sensor_fusion
+[30.761s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig.cmake
+[30.770s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig-version.cmake
+[30.778s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/sensor_fusion/share/sensor_fusion/package.xml
+[30.788s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/sensor_fusion

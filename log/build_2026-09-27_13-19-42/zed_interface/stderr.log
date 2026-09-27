@@ -1,0 +1,262 @@
+In file included from /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/include/zed_interface/zed_interface_node.hpp:16,
+                 from /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/src/zed_interface_node.cpp:1:
+/usr/local/zed/include/sl/Camera.hpp:1156:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1156 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1307:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1307 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1493:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1493 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1551:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 1551 |         _FCT_CPU_GPU_ Vector2<T>(const Vector2<T> &v) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:1551:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:1708:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1708 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1712:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1712 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1716:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1716 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1777:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 1777 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:1777:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:1788:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 1788 |         _FCT_CPU_GPU_ Vector3<T>(const Vector2<T> &v, const T d = 0) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:1788:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:1799:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 1799 |         _FCT_CPU_GPU_ Vector3<T>(const Vector4<T>& v) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:1799:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:2024:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2024 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2028:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2028 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2032:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2032 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2096:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 2096 |         _FCT_CPU_GPU_ Vector4<T>(const Vector4<T> &v) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:2096:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:2108:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 2108 |         _FCT_CPU_GPU_ Vector4<T>(const Vector4<T> &v, const T d) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:2108:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:2120:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 2120 |         _FCT_CPU_GPU_ Vector4<T>(const Vector3<T>& v, const T d = 0) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:2120:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator+(Timestamp, const Timestamp&)':
+/usr/local/zed/include/sl/Camera.hpp:2583:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2583 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator-(Timestamp, const Timestamp&)':
+/usr/local/zed/include/sl/Camera.hpp:2588:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2588 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator/(Timestamp, const Timestamp&)':
+/usr/local/zed/include/sl/Camera.hpp:2593:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2593 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator*(Timestamp, const Timestamp&)':
+/usr/local/zed/include/sl/Camera.hpp:2598:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2598 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::getCurrentTimeStamp()':
+/usr/local/zed/include/sl/Camera.hpp:2632:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2632 |         return current_ts;
+      |                ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'cudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)':
+/usr/local/zed/include/sl/Camera.hpp:2639:89: warning: unused parameter 'file' [-Wunused-parameter]
+ 2639 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+      |                                                                             ~~~~~~~~~~~~^~~~
+/usr/local/zed/include/sl/Camera.hpp:2639:105: warning: unused parameter 'line' [-Wunused-parameter]
+ 2639 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+      |                                                                                               ~~~~~~~~~~^~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function 'sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const':
+/usr/local/zed/include/sl/Camera.hpp:3755:62: warning: implicitly-declared 'sl::Transform& sl::Transform::operator=(const sl::Transform&)' is deprecated [-Wdeprecated-copy]
+ 3755 |             output_calibration_parameters.stereo_transform = stereo_transform;
+      |                                                              ^~~~~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:3538:9: note: because 'sl::Transform' has user-provided 'sl::Transform::Transform(const sl::Transform&)'
+ 3538 |         Transform(const Transform &motion);
+      |         ^~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function 'sl::Transform& sl::Transform::operator=(const sl::Transform&)':
+/usr/local/zed/include/sl/Camera.hpp:3527:60: warning: implicitly-declared 'sl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)' is deprecated [-Wdeprecated-copy]
+ 3527 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Transform : public Matrix4f {
+      |                                                            ^~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1329:9: note: because 'sl::Matrix4f' has user-provided 'sl::Matrix4f::Matrix4f(const sl::Matrix4f&)'
+ 1329 |         Matrix4f(const Matrix4f &mat);
+      |         ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function 'sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const':
+/usr/local/zed/include/sl/Camera.hpp:3755:62: note: synthesized method 'sl::Transform& sl::Transform::operator=(const sl::Transform&)' first required here
+ 3755 |             output_calibration_parameters.stereo_transform = stereo_transform;
+      |                                                              ^~~~~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In constructor 'sl::SVOData::SVOData(std::string&, std::vector<unsigned char>&, sl::Timestamp)':
+/usr/local/zed/include/sl/Camera.hpp:6058:28: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 6058 |             timestamp_ns = timestamp_ns_;
+      |                            ^~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2504:40: note: initializing argument 1 of 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                              ~~~~~~~~~~^~~~~
+/usr/local/zed/include/sl/Camera.hpp: At global scope:
+/usr/local/zed/include/sl/Camera.hpp:6984:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 6984 |     inline const void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+      |            ^~~~~
+In file included from /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/include/zed_interface/zed_interface_node.hpp:16,
+                 from /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/src/main.cpp:2:
+/usr/local/zed/include/sl/Camera.hpp:1156:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1156 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1307:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1307 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1493:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1493 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1551:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 1551 |         _FCT_CPU_GPU_ Vector2<T>(const Vector2<T> &v) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:1551:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:1708:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1708 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1712:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1712 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1716:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1716 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1777:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 1777 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:1777:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:1788:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 1788 |         _FCT_CPU_GPU_ Vector3<T>(const Vector2<T> &v, const T d = 0) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:1788:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:1799:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 1799 |         _FCT_CPU_GPU_ Vector3<T>(const Vector4<T>& v) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:1799:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:2024:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2024 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2028:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2028 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2032:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2032 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2096:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 2096 |         _FCT_CPU_GPU_ Vector4<T>(const Vector4<T> &v) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:2096:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:2108:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 2108 |         _FCT_CPU_GPU_ Vector4<T>(const Vector4<T> &v, const T d) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:2108:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp:2120:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+ 2120 |         _FCT_CPU_GPU_ Vector4<T>(const Vector3<T>& v, const T d = 0) {
+      |                                 ^
+/usr/local/zed/include/sl/Camera.hpp:2120:33: note: remove the '< >'
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator+(Timestamp, const Timestamp&)':
+/usr/local/zed/include/sl/Camera.hpp:2583:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2583 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator-(Timestamp, const Timestamp&)':
+/usr/local/zed/include/sl/Camera.hpp:2588:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2588 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator/(Timestamp, const Timestamp&)':
+/usr/local/zed/include/sl/Camera.hpp:2593:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2593 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator*(Timestamp, const Timestamp&)':
+/usr/local/zed/include/sl/Camera.hpp:2598:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2598 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::getCurrentTimeStamp()':
+/usr/local/zed/include/sl/Camera.hpp:2632:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 2632 |         return current_ts;
+      |                ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function 'cudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)':
+/usr/local/zed/include/sl/Camera.hpp:2639:89: warning: unused parameter 'file' [-Wunused-parameter]
+ 2639 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+      |                                                                             ~~~~~~~~~~~~^~~~
+/usr/local/zed/include/sl/Camera.hpp:2639:105: warning: unused parameter 'line' [-Wunused-parameter]
+ 2639 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+      |                                                                                               ~~~~~~~~~~^~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function 'sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const':
+/usr/local/zed/include/sl/Camera.hpp:3755:62: warning: implicitly-declared 'sl::Transform& sl::Transform::operator=(const sl::Transform&)' is deprecated [-Wdeprecated-copy]
+ 3755 |             output_calibration_parameters.stereo_transform = stereo_transform;
+      |                                                              ^~~~~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:3538:9: note: because 'sl::Transform' has user-provided 'sl::Transform::Transform(const sl::Transform&)'
+ 3538 |         Transform(const Transform &motion);
+      |         ^~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function 'sl::Transform& sl::Transform::operator=(const sl::Transform&)':
+/usr/local/zed/include/sl/Camera.hpp:3527:60: warning: implicitly-declared 'sl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)' is deprecated [-Wdeprecated-copy]
+ 3527 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Transform : public Matrix4f {
+      |                                                            ^~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1329:9: note: because 'sl::Matrix4f' has user-provided 'sl::Matrix4f::Matrix4f(const sl::Matrix4f&)'
+ 1329 |         Matrix4f(const Matrix4f &mat);
+      |         ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function 'sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const':
+/usr/local/zed/include/sl/Camera.hpp:3755:62: note: synthesized method 'sl::Transform& sl::Transform::operator=(const sl::Transform&)' first required here
+ 3755 |             output_calibration_parameters.stereo_transform = stereo_transform;
+      |                                                              ^~~~~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In constructor 'sl::SVOData::SVOData(std::string&, std::vector<unsigned char, std::allocator<unsigned char> >&, sl::Timestamp)':
+/usr/local/zed/include/sl/Camera.hpp:6058:28: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+ 6058 |             timestamp_ns = timestamp_ns_;
+      |                            ^~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2504:40: note: initializing argument 1 of 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+ 2504 |         Timestamp& operator=(Timestamp other) {
+      |                              ~~~~~~~~~~^~~~~
+/usr/local/zed/include/sl/Camera.hpp: At global scope:
+/usr/local/zed/include/sl/Camera.hpp:6984:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 6984 |     inline const void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+      |            ^~~~~

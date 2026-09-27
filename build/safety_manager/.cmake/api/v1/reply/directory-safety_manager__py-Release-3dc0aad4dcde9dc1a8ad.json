@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "safety_manager__py",
+		"source" : "/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager/safety_manager__py"
+	}
+}

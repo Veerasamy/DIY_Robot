@@ -1,0 +1,73 @@
+[0.023s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/encoder_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface
+[0.093s] -- The C compiler identification is GNU 15.3.0
+[0.295s] -- The CXX compiler identification is GNU 15.3.0
+[0.308s] -- Detecting C compiler ABI info
+[0.428s] -- Detecting C compiler ABI info - done
+[0.467s] -- Check for working C compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cc - skipped
+[0.467s] -- Detecting C compile features
+[0.468s] -- Detecting C compile features - done
+[0.491s] -- Detecting CXX compiler ABI info
+[0.675s] -- Detecting CXX compiler ABI info - done
+[0.699s] -- Check for working CXX compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/c++ - skipped
+[0.700s] -- Detecting CXX compile features
+[0.701s] -- Detecting CXX compile features - done
+[0.714s] -- Found ament_cmake: 2.5.6 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake/cmake)
+[0.893s] -- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+[0.982s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.050s] -- Found rclcpp: 28.1.21 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake)
+[1.109s] -- Found rosidl_generator_c: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_c/cmake)
+[1.130s] -- Found rosidl_generator_cpp: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_cpp/cmake)
+[1.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.292s] -- Found rmw_implementation_cmake: 7.3.3 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_implementation_cmake/cmake)
+[1.298s] -- Found rmw_fastrtps_cpp: 8.4.4 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.826s] -- Found OpenSSL: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcrypto.so (found version "3.6.4")
+[1.870s] -- Found FastRTPS: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/include (Required is at least version "2.13")
+[1.939s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.047s] -- Found std_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/std_msgs/cmake)
+[2.102s] -- encoder_interface: libgpiod-dev not found (sudo apt install libgpiod-dev) — building with a zero-output fallback reader
+[2.107s] -- Found ament_lint_auto: 0.17.5 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_lint_auto/cmake)
+[2.260s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.262s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.262s] -- Configured cppcheck include dirs: /mnt/external/DIY/CameraModule/autonomous_rc/src/encoder_interface/include
+[2.262s] -- Configured cppcheck exclude dirs and/or files: 
+[2.264s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.264s] -- Configured cpplint exclude dirs and/or files: 
+[2.265s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.265s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.266s] -- Added test 'lint_cmake' to check CMake code style
+[2.267s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.268s] -- Added test 'uncrustify' to check C / C++ code style
+[2.268s] -- Configured uncrustify additional arguments: 
+[2.269s] -- Added test 'xmllint' to check XML markup files
+[2.271s] -- Configuring done (2.2s)
+[2.296s] -- Generating done (0.0s)
+[2.349s] -- Build files have been written to: /mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface
+[2.361s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/encoder_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface
+[2.362s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface -- -j20 -l20
+[2.421s] [ 33%] Building CXX object CMakeFiles/encoder_node.dir/src/main.cpp.o
+[2.422s] [ 66%] Building CXX object CMakeFiles/encoder_node.dir/src/encoder_node.cpp.o
+[11.994s] [100%] Linking CXX executable encoder_node
+[12.228s] [100%] Built target encoder_node
+[12.242s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface -- -j20 -l20
+[12.255s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface
+[12.267s] -- Install configuration: "Release"
+[12.269s] -- Execute custom install script
+[12.269s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/lib/encoder_interface/encoder_node
+[12.281s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/launch/encoder_interface.launch.py
+[12.292s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/ament_index/resource_index/package_run_dependencies/encoder_interface
+[12.303s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/ament_index/resource_index/parent_prefix_path/encoder_interface
+[12.316s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/environment/ament_prefix_path.sh
+[12.328s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/environment/ament_prefix_path.dsv
+[12.341s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/environment/path.sh
+[12.352s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/environment/path.dsv
+[12.363s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/local_setup.bash
+[12.373s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/local_setup.sh
+[12.386s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/local_setup.zsh
+[12.398s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/local_setup.dsv
+[12.411s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.dsv
+[12.422s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/ament_index/resource_index/packages/encoder_interface
+[12.433s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/cmake/encoder_interfaceConfig.cmake
+[12.444s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/cmake/encoder_interfaceConfig-version.cmake
+[12.456s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.xml
+[12.470s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/encoder_interface

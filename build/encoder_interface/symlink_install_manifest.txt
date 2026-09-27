@@ -1,0 +1,17 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/lib/encoder_interface/encoder_node
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/launch/encoder_interface.launch.py
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/ament_index/resource_index/package_run_dependencies/encoder_interface
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/ament_index/resource_index/parent_prefix_path/encoder_interface
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/environment/ament_prefix_path.sh
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/environment/ament_prefix_path.dsv
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/environment/path.sh
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/environment/path.dsv
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/local_setup.bash
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/local_setup.sh
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/local_setup.zsh
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/local_setup.dsv
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.dsv
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/ament_index/resource_index/packages/encoder_interface
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/cmake/encoder_interfaceConfig.cmake
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/cmake/encoder_interfaceConfig-version.cmake
+/mnt/external/DIY/CameraModule/autonomous_rc/install/encoder_interface/share/encoder_interface/package.xml

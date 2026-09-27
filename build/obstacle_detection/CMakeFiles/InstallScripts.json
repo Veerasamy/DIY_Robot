@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

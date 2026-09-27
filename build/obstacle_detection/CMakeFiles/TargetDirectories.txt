@@ -1,0 +1,11 @@
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/uninstall.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/obstacle_detection_uninstall.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/vfh_planner.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/obstacle_avoidance_node.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/test.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/edit_cache.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/rebuild_cache.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/list_install_components.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/install.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/install/local.dir
+/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/CMakeFiles/install/strip.dir

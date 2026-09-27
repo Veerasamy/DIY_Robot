@@ -1,0 +1,267 @@
+[0.028s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager
+[0.100s] -- The C compiler identification is GNU 15.3.0
+[0.245s] -- The CXX compiler identification is GNU 15.3.0
+[0.256s] -- Detecting C compiler ABI info
+[0.369s] -- Detecting C compiler ABI info - done
+[0.394s] -- Check for working C compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cc - skipped
+[0.395s] -- Detecting C compile features
+[0.395s] -- Detecting C compile features - done
+[0.413s] -- Detecting CXX compiler ABI info
+[0.590s] -- Detecting CXX compiler ABI info - done
+[0.624s] -- Check for working CXX compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/c++ - skipped
+[0.624s] -- Detecting CXX compile features
+[0.625s] -- Detecting CXX compile features - done
+[0.640s] -- Found ament_cmake: 2.5.6 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake/cmake)
+[0.829s] -- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+[0.919s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.982s] -- Found rclcpp: 28.1.21 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake)
+[1.041s] -- Found rosidl_generator_c: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_c/cmake)
+[1.063s] -- Found rosidl_generator_cpp: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_cpp/cmake)
+[1.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.220s] -- Found rmw_implementation_cmake: 7.3.3 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_implementation_cmake/cmake)
+[1.224s] -- Found rmw_fastrtps_cpp: 8.4.4 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.729s] -- Found OpenSSL: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcrypto.so (found version "3.6.4")
+[1.779s] -- Found FastRTPS: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/include (Required is at least version "2.13")
+[1.855s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.987s] -- Found std_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/std_msgs/cmake)
+[2.009s] -- Found ackermann_msgs: 2.0.2 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ackermann_msgs/cmake)
+[2.031s] -- Found rosidl_default_generators: 1.6.1 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_default_generators/cmake)
+[2.057s] -- Found rosidl_adapter: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_adapter/cmake)
+[2.892s] -- Found ament_cmake_ros: 0.12.1 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake_ros/cmake)
+[3.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.416s] -- Found python_cmake_module: 0.11.1 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/python_cmake_module/cmake)
+[4.597s] -- Found PythonExtra: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3
+[5.306s] -- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter Development NumPy Development.Module Development.Embed
+[5.472s] -- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+[5.485s] -- Found ament_lint_auto: 0.17.5 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_lint_auto/cmake)
+[5.561s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.567s] -- Configured cppcheck include dirs: /mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager/include;/mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager/common
+[5.567s] -- Configured cppcheck exclude dirs and/or files: 
+[5.571s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.571s] -- Configured cpplint exclude dirs and/or files: 
+[5.572s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.572s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.573s] -- Added test 'lint_cmake' to check CMake code style
+[5.575s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.578s] -- Added test 'uncrustify' to check C / C++ code style
+[5.578s] -- Configured uncrustify additional arguments: 
+[5.579s] -- Added test 'xmllint' to check XML markup files
+[5.595s] -- Configuring done (5.6s)
+[5.831s] -- Generating done (0.2s)
+[5.947s] -- Build files have been written to: /mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager
+[5.967s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/safety_manager -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager
+[5.969s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager -- -j20 -l20
+[6.049s] [  2%] Generating type hashes for ROS interfaces
+[6.054s] [  4%] Generating Rust code for ROS interfaces
+[6.055s] [  4%] Built target ament_cmake_python_symlink_safety_manager
+[6.370s] running egg_info
+[6.373s] [  4%] Built target safety_manager__rosidl_generator_type_description
+[6.393s] [  6%] Generating C code for ROS interfaces
+[6.394s] creating safety_manager.egg-info
+[6.394s] writing safety_manager.egg-info/PKG-INFO
+[6.396s] writing dependency_links to safety_manager.egg-info/dependency_links.txt
+[6.397s] writing top-level names to safety_manager.egg-info/top_level.txt
+[6.398s] writing manifest file 'safety_manager.egg-info/SOURCES.txt'
+[6.408s] [  8%] Generating C++ code for ROS interfaces
+[6.477s] reading manifest file 'safety_manager.egg-info/SOURCES.txt'
+[6.479s] writing manifest file 'safety_manager.egg-info/SOURCES.txt'
+[6.514s] [  8%] Built target safety_manager__rs
+[6.529s] [  8%] Built target ament_cmake_python_build_safety_manager_egg
+[6.910s] [ 12%] Building C object CMakeFiles/safety_manager__rosidl_generator_c.dir/rosidl_generator_c/safety_manager/msg/detail/e_stop_status__type_support.c.o
+[6.910s] [ 12%] Building C object CMakeFiles/safety_manager__rosidl_generator_c.dir/rosidl_generator_c/safety_manager/msg/detail/vehicle_state__functions.c.o
+[6.917s] [ 14%] Building C object CMakeFiles/safety_manager__rosidl_generator_c.dir/rosidl_generator_c/safety_manager/msg/detail/vehicle_state__type_support.c.o
+[6.918s] [ 16%] Building C object CMakeFiles/safety_manager__rosidl_generator_c.dir/rosidl_generator_c/safety_manager/msg/detail/e_stop_status__description.c.o
+[6.918s] [ 18%] Building C object CMakeFiles/safety_manager__rosidl_generator_c.dir/rosidl_generator_c/safety_manager/msg/detail/e_stop_status__functions.c.o
+[6.924s] [ 20%] Building C object CMakeFiles/safety_manager__rosidl_generator_c.dir/rosidl_generator_c/safety_manager/msg/detail/vehicle_state__description.c.o
+[6.995s] [ 20%] Built target safety_manager__cpp
+[7.106s] [ 22%] Linking C shared library libsafety_manager__rosidl_generator_c.so
+[7.153s] [ 22%] Built target safety_manager__rosidl_generator_c
+[7.168s] [ 24%] Generating C type support for eProsima Fast-RTPS
+[7.168s] [ 28%] Generating C type support dispatch for ROS interfaces
+[7.168s] [ 28%] Generating C++ type support for eProsima Fast-RTPS
+[7.168s] [ 32%] Generating C++ type support dispatch for ROS interfaces
+[7.169s] [ 32%] Generating C++ introspection for ROS interfaces
+[7.174s] [ 34%] Generating C introspection for ROS interfaces
+[7.616s] [ 36%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/safety_manager/msg/e_stop_status__type_support.cpp.o
+[7.620s] [ 38%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/safety_manager/msg/vehicle_state__type_support.cpp.o
+[7.657s] [ 40%] Building C object CMakeFiles/safety_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safety_manager/msg/detail/e_stop_status__type_support.c.o
+[7.660s] [ 42%] Building C object CMakeFiles/safety_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safety_manager/msg/detail/vehicle_state__type_support.c.o
+[7.666s] [ 44%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safety_manager/msg/e_stop_status__type_support.cpp.o
+[7.669s] [ 46%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safety_manager/msg/vehicle_state__type_support.cpp.o
+[7.704s] [ 48%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safety_manager/msg/detail/e_stop_status__type_support.cpp.o
+[7.712s] [ 51%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safety_manager/msg/detail/vehicle_state__type_support.cpp.o
+[7.747s] [ 53%] Linking CXX shared library libsafety_manager__rosidl_typesupport_c.so
+[7.771s] [ 55%] Linking C shared library libsafety_manager__rosidl_typesupport_introspection_c.so
+[7.791s] [ 57%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safety_manager/msg/detail/dds_fastrtps/e_stop_status__type_support.cpp.o
+[7.791s] [ 59%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safety_manager/msg/detail/dds_fastrtps/vehicle_state__type_support.cpp.o
+[7.877s] [ 59%] Built target safety_manager__rosidl_typesupport_c
+[7.885s] [ 59%] Built target safety_manager__rosidl_typesupport_introspection_c
+[7.897s] [ 63%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safety_manager/msg/detail/vehicle_state__type_support_c.cpp.o
+[7.898s] [ 63%] Building CXX object CMakeFiles/safety_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safety_manager/msg/detail/e_stop_status__type_support_c.cpp.o
+[8.317s] [ 65%] Linking CXX shared library libsafety_manager__rosidl_typesupport_cpp.so
+[8.372s] [ 67%] Linking CXX shared library libsafety_manager__rosidl_typesupport_introspection_cpp.so
+[8.467s] [ 67%] Built target safety_manager__rosidl_typesupport_cpp
+[8.501s] [ 69%] Building CXX object CMakeFiles/estop_bridge_node.dir/src/estop_bridge_node.cpp.o
+[8.511s] [ 71%] Building CXX object CMakeFiles/estop_bridge_node.dir/src/main.cpp.o
+[8.511s] [ 73%] Building CXX object CMakeFiles/estop_bridge_node.dir/src/vehicle_state_machine.cpp.o
+[8.563s] [ 73%] Built target safety_manager__rosidl_typesupport_introspection_cpp
+[8.826s] [ 75%] Linking CXX shared library libsafety_manager__rosidl_typesupport_fastrtps_cpp.so
+[8.907s] [ 77%] Linking CXX shared library libsafety_manager__rosidl_typesupport_fastrtps_c.so
+[8.957s] [ 77%] Built target safety_manager__rosidl_typesupport_fastrtps_cpp
+[9.034s] [ 77%] Built target safety_manager__rosidl_typesupport_fastrtps_c
+[9.056s] [ 77%] Built target safety_manager
+[9.086s] [ 79%] Generating Python code for ROS interfaces
+[9.602s] [ 79%] Built target safety_manager__py
+[9.631s] [ 81%] Building C object CMakeFiles/safety_manager__rosidl_generator_py.dir/rosidl_generator_py/safety_manager/msg/_e_stop_status_s.c.o
+[9.633s] [ 83%] Building C object CMakeFiles/safety_manager__rosidl_generator_py.dir/rosidl_generator_py/safety_manager/msg/_vehicle_state_s.c.o
+[9.934s] [ 85%] Linking C shared library libsafety_manager__rosidl_generator_py.so
+[9.994s] [ 85%] Built target safety_manager__rosidl_generator_py
+[10.020s] [ 87%] Building C object CMakeFiles/safety_manager_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/safety_manager/_safety_manager_s.ep.rosidl_typesupport_introspection_c.c.o
+[10.021s] [ 89%] Building C object CMakeFiles/safety_manager_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/safety_manager/_safety_manager_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[10.027s] [ 91%] Building C object CMakeFiles/safety_manager_s__rosidl_typesupport_c.dir/rosidl_generator_py/safety_manager/_safety_manager_s.ep.rosidl_typesupport_c.c.o
+[10.263s] [ 93%] Linking C shared module rosidl_generator_py/safety_manager/safety_manager_s__rosidl_typesupport_fastrtps_c.so
+[10.272s] [ 95%] Linking C shared module rosidl_generator_py/safety_manager/safety_manager_s__rosidl_typesupport_introspection_c.so
+[10.279s] [ 97%] Linking C shared module rosidl_generator_py/safety_manager/safety_manager_s__rosidl_typesupport_c.so
+[10.316s] [ 97%] Built target safety_manager_s__rosidl_typesupport_fastrtps_c
+[10.331s] [ 97%] Built target safety_manager_s__rosidl_typesupport_introspection_c
+[10.347s] [ 97%] Built target safety_manager_s__rosidl_typesupport_c
+[28.110s] [100%] Linking CXX executable estop_bridge_node
+[28.283s] [100%] Built target estop_bridge_node
+[28.294s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager -- -j20 -l20
+[28.296s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager
+[28.303s] -- Install configuration: "Release"
+[28.304s] -- Execute custom install script
+[28.304s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/ament_index/resource_index/rosidl_interfaces/safety_manager
+[28.311s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/EStopStatus.json
+[28.319s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/VehicleState.json
+[28.329s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__functions.h
+[28.337s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__struct.h
+[28.345s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__type_support.h
+[28.367s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__functions.h
+[28.367s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__struct.h
+[28.369s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__type_support.h
+[28.376s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/e_stop_status.h
+[28.385s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/rosidl_generator_c__visibility_control.h
+[28.394s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/vehicle_state.h
+[28.404s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__rosidl_typesupport_fastrtps_c.h
+[28.412s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_c.h
+[28.421s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[28.429s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__builder.hpp
+[28.438s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__struct.hpp
+[28.446s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__traits.hpp
+[28.453s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__type_support.hpp
+[28.461s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__builder.hpp
+[28.470s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__struct.hpp
+[28.478s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__traits.hpp
+[28.486s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__type_support.hpp
+[28.493s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/e_stop_status.hpp
+[28.502s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/rosidl_generator_cpp__visibility_control.hpp
+[28.512s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/vehicle_state.hpp
+[28.521s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__rosidl_typesupport_fastrtps_cpp.hpp
+[28.531s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_cpp.hpp
+[28.539s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[28.547s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__rosidl_typesupport_introspection_c.h
+[28.555s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__rosidl_typesupport_introspection_c.h
+[28.565s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[28.574s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/e_stop_status__rosidl_typesupport_introspection_cpp.hpp
+[28.584s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/include/safety_manager/safety_manager/msg/detail/vehicle_state__rosidl_typesupport_introspection_cpp.hpp
+[28.593s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/environment/pythonpath.sh
+[28.603s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/environment/pythonpath.dsv
+[28.612s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager-1.0.0-py3.12.egg-info/PKG-INFO
+[28.620s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager-1.0.0-py3.12.egg-info/SOURCES.txt
+[28.627s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager-1.0.0-py3.12.egg-info/dependency_links.txt
+[28.636s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager-1.0.0-py3.12.egg-info/top_level.txt
+[28.645s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/__init__.py
+[28.655s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/_safety_manager_s.ep.rosidl_typesupport_c.c
+[28.664s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/_safety_manager_s.ep.rosidl_typesupport_fastrtps_c.c
+[28.673s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/_safety_manager_s.ep.rosidl_typesupport_introspection_c.c
+[28.683s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/__init__.py
+[28.690s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_e_stop_status.py
+[28.698s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_e_stop_status_s.c
+[28.707s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_vehicle_state.py
+[28.717s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_vehicle_state_s.c
+[28.726s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_c.so
+[28.735s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_fastrtps_c.so
+[28.743s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_introspection_c.so
+[28.751s] -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_fastrtps_c.so
+[28.751s] -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_introspection_c.so
+[28.752s] -- Up-to-date symlink: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/safety_manager_s__rosidl_typesupport_c.so
+[28.752s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/Cargo.toml
+[28.761s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/build.rs
+[28.769s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/src/lib.rs
+[28.778s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/src/msg.rs
+[28.785s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/rust/src/msg/rmw.rs
+[28.794s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/EStopStatus.idl
+[28.802s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/VehicleState.idl
+[28.810s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/EStopStatus.msg
+[28.818s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/msg/VehicleState.msg
+[28.828s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/safety_manager/estop_bridge_node
+[28.835s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/launch/safety_manager.launch.py
+[28.844s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/firmware/esp32_estop/esp32_estop.cpp
+[28.852s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/firmware/esp32_estop/include/uart_protocol.hpp
+[28.860s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/firmware/esp32_estop/platformio.ini
+[28.870s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/ament_index/resource_index/package_run_dependencies/safety_manager
+[28.878s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/ament_index/resource_index/parent_prefix_path/safety_manager
+[28.885s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/environment/ament_prefix_path.sh
+[28.894s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/environment/ament_prefix_path.dsv
+[28.902s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/environment/path.sh
+[28.910s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/environment/path.dsv
+[28.918s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/local_setup.bash
+[28.926s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/local_setup.sh
+[28.934s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/local_setup.zsh
+[28.941s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/local_setup.dsv
+[28.949s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.dsv
+[28.968s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/ament_index/resource_index/packages/safety_manager
+[28.968s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/rosidl_cmake-extras.cmake
+[28.974s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.981s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.990s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[28.999s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/ament_cmake_export_targets-extras.cmake
+[29.008s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.016s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.024s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[29.033s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_managerConfig.cmake
+[29.040s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_managerConfig-version.cmake
+[29.050s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/package.xml
+[29.058s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_generator_c.so
+[29.059s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_fastrtps_c.so
+[29.059s] -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_fastrtps_c.so" to ""
+[29.059s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_fastrtps_cpp.so
+[29.060s] -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_fastrtps_cpp.so" to ""
+[29.060s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_introspection_c.so
+[29.061s] -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_introspection_c.so" to ""
+[29.061s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_c.so
+[29.062s] -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_c.so" to ""
+[29.062s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_introspection_cpp.so
+[29.063s] -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_introspection_cpp.so" to ""
+[29.063s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_cpp.so
+[29.064s] -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_typesupport_cpp.so" to ""
+[29.107s] Listing '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager'...
+[29.107s] Compiling '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/__init__.py'...
+[29.107s] Listing '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg'...
+[29.107s] Compiling '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/__init__.py'...
+[29.107s] Compiling '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_e_stop_status.py'...
+[29.108s] Compiling '/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages/safety_manager/msg/_vehicle_state.py'...
+[29.112s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_generator_py.so
+[29.113s] -- Set non-toolchain portion of runtime path of "/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/libsafety_manager__rosidl_generator_py.so" to ""
+[29.113s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_generator_cExport.cmake
+[29.113s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_generator_cExport-release.cmake
+[29.114s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_typesupport_fastrtps_cExport.cmake
+[29.114s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_typesupport_fastrtps_cExport-release.cmake
+[29.114s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_generator_cppExport.cmake
+[29.115s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.115s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[29.115s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_manager__rosidl_typesupport_introspection_cExport.cmake
+[29.116s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_manager__rosidl_typesupport_introspection_cExport-release.cmake
+[29.116s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_manager__rosidl_typesupport_cExport.cmake
+[29.116s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_manager__rosidl_typesupport_cExport-release.cmake
+[29.116s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_manager__rosidl_typesupport_introspection_cppExport.cmake
+[29.116s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_manager__rosidl_typesupport_introspection_cppExport-release.cmake
+[29.117s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_manager__rosidl_typesupport_cppExport.cmake
+[29.117s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/safety_manager__rosidl_typesupport_cppExport-release.cmake
+[29.117s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_generator_pyExport.cmake
+[29.117s] -- Installing: /mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake/export_safety_manager__rosidl_generator_pyExport-release.cmake
+[29.119s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager

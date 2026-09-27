@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpu_cpu_monitor.a CMakeFiles/gpu_cpu_monitor.dir/src/gpu_cpu_monitor.cpp.o
+/usr/bin/ranlib libgpu_cpu_monitor.a

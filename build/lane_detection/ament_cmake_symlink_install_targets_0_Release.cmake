@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/mnt/external/DIY/CameraModule/autonomous_rc/build/lane_detection/lane_detection_node" "TARGETS" "lane_detection_node" "DESTINATION" "lib/lane_detection")

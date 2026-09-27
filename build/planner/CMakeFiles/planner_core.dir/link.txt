@@ -1,0 +1,2 @@
+/usr/bin/ar qc libplanner_core.a CMakeFiles/planner_core.dir/src/raceline_loader.cpp.o CMakeFiles/planner_core.dir/src/path_arbitrator.cpp.o
+/usr/bin/ranlib libplanner_core.a

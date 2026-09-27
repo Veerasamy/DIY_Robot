@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 15.3.0
+-- The CXX compiler identification is GNU 15.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.21 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcrypto.so (found version "3.6.4")
+-- Found FastRTPS: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/include (Required is at least version "2.13")
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/nav_msgs/cmake)
+-- Found ackermann_msgs: 2.0.2 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ackermann_msgs/cmake)
+-- Found safety_manager: 1.0.0 (/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake)
+-- Found ament_lint_auto: 0.17.5 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /mnt/external/DIY/CameraModule/autonomous_rc/src/controller/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /mnt/external/DIY/CameraModule/autonomous_rc/build/controller
+[ 14%] Building CXX object CMakeFiles/steering_controllers.dir/src/pure_pursuit_controller.cpp.o
+[ 28%] Building CXX object CMakeFiles/steering_controllers.dir/src/stanley_controller.cpp.o
+[ 42%] Building CXX object CMakeFiles/steering_controllers.dir/src/mpc_controller.cpp.o
+[ 57%] Linking CXX static library libsteering_controllers.a
+[ 57%] Built target steering_controllers
+[ 71%] Building CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o
+[ 85%] Building CXX object CMakeFiles/pure_pursuit_node.dir/src/main.cpp.o
+[100%] Linking CXX executable pure_pursuit_node
+[100%] Built target pure_pursuit_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib/controller/pure_pursuit_node
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib/libsteering_controllers.a
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/launch/controller.launch.py
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/environment/ament_prefix_path.sh
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/environment/ament_prefix_path.dsv
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/environment/path.sh
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/environment/path.dsv
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/local_setup.bash
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/local_setup.sh
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/local_setup.zsh
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/local_setup.dsv
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.dsv
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/ament_index/resource_index/packages/controller
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/cmake/controllerConfig.cmake
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/cmake/controllerConfig-version.cmake
+-- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.xml

@@ -1,0 +1,14 @@
+zed_interface:
+  ros__parameters:
+    # Obstacle Race Mode: richer perception, point cloud + higher-quality depth.
+    resolution: "HD720"
+    camera_fps: 30
+    depth_mode: "NEURAL"
+    depth_confidence: 60.0
+    depth_texture_confidence: 100.0
+    max_depth_m: 8.0
+    enable_point_cloud: true
+    enable_positional_tracking: true
+    enable_ground_plane: true
+    frame_id: "zed2i_camera_link"
+    odom_frame_id: "odom"

@@ -1,0 +1,78 @@
+[0.020s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/planner
+[0.092s] -- The C compiler identification is GNU 15.3.0
+[0.236s] -- The CXX compiler identification is GNU 15.3.0
+[0.249s] -- Detecting C compiler ABI info
+[0.357s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cc - skipped
+[0.384s] -- Detecting C compile features
+[0.384s] -- Detecting C compile features - done
+[0.406s] -- Detecting CXX compiler ABI info
+[0.579s] -- Detecting CXX compiler ABI info - done
+[0.610s] -- Check for working CXX compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/c++ - skipped
+[0.610s] -- Detecting CXX compile features
+[0.611s] -- Detecting CXX compile features - done
+[0.627s] -- Found ament_cmake: 2.5.6 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake/cmake)
+[0.821s] -- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+[0.921s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.975s] -- Found rclcpp: 28.1.21 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake)
+[1.033s] -- Found rosidl_generator_c: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_c/cmake)
+[1.054s] -- Found rosidl_generator_cpp: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_cpp/cmake)
+[1.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.104s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.219s] -- Found rmw_implementation_cmake: 7.3.3 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_implementation_cmake/cmake)
+[1.225s] -- Found rmw_fastrtps_cpp: 8.4.4 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.733s] -- Found OpenSSL: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcrypto.so (found version "3.6.4")
+[1.784s] -- Found FastRTPS: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/include (Required is at least version "2.13")
+[1.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.998s] -- Found nav_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/nav_msgs/cmake)
+[2.094s] -- Found ament_lint_auto: 0.17.5 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_lint_auto/cmake)
+[2.251s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.254s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.254s] -- Configured cppcheck include dirs: /mnt/external/DIY/CameraModule/autonomous_rc/src/planner/include
+[2.254s] -- Configured cppcheck exclude dirs and/or files: 
+[2.255s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.256s] -- Configured cpplint exclude dirs and/or files: 
+[2.256s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.257s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.257s] -- Added test 'lint_cmake' to check CMake code style
+[2.258s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.260s] -- Added test 'uncrustify' to check C / C++ code style
+[2.260s] -- Configured uncrustify additional arguments: 
+[2.261s] -- Added test 'xmllint' to check XML markup files
+[2.263s] -- Configuring done (2.2s)
+[2.295s] -- Generating done (0.0s)
+[2.361s] -- Build files have been written to: /mnt/external/DIY/CameraModule/autonomous_rc/build/planner
+[2.375s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/planner
+[2.375s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/planner -- -j20 -l20
+[2.434s] [ 33%] Building CXX object CMakeFiles/planner_core.dir/src/path_arbitrator.cpp.o
+[2.434s] [ 33%] Building CXX object CMakeFiles/planner_core.dir/src/raceline_loader.cpp.o
+[4.722s] [ 50%] Linking CXX static library libplanner_core.a
+[4.766s] [ 50%] Built target planner_core
+[4.796s] [ 83%] Building CXX object CMakeFiles/local_planner_node.dir/src/main.cpp.o
+[4.796s] [ 83%] Building CXX object CMakeFiles/local_planner_node.dir/src/local_planner_node.cpp.o
+[28.573s] [100%] Linking CXX executable local_planner_node
+[28.764s] [100%] Built target local_planner_node
+[28.775s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/planner -- -j20 -l20
+[28.776s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/planner
+[28.785s] -- Install configuration: "Release"
+[28.786s] -- Execute custom install script
+[28.786s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/lib/planner/local_planner_node
+[28.796s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/lib/libplanner_core.a
+[28.804s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/launch/planner.launch.py
+[28.811s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/config/raceline.yaml
+[28.818s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/ament_index/resource_index/package_run_dependencies/planner
+[28.826s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/ament_index/resource_index/parent_prefix_path/planner
+[28.833s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/environment/ament_prefix_path.sh
+[28.841s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/environment/ament_prefix_path.dsv
+[28.849s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/environment/path.sh
+[28.857s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/environment/path.dsv
+[28.864s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/local_setup.bash
+[28.872s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/local_setup.sh
+[28.879s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/local_setup.zsh
+[28.888s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/local_setup.dsv
+[28.896s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.dsv
+[28.903s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/ament_index/resource_index/packages/planner
+[28.911s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/cmake/plannerConfig.cmake
+[28.919s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/cmake/plannerConfig-version.cmake
+[28.927s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/planner/share/planner/package.xml
+[28.936s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/planner' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/planner

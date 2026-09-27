@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvfh_planner.a CMakeFiles/vfh_planner.dir/src/vfh_planner.cpp.o
+/usr/bin/ranlib libvfh_planner.a

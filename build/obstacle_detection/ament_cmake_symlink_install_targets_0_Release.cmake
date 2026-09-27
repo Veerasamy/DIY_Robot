@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection/obstacle_avoidance_node" "TARGETS" "obstacle_avoidance_node" "DESTINATION" "lib/obstacle_detection")

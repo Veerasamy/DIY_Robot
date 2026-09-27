@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from safety_manager/msg/EStopStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module safety_manager {
+  module msg {
+    @verbatim (language="comment", text=
+      "Decoded status of the physical E-Stop radio link, as reported by the" "\n"
+      "ESP32 over UART. Published at the UART packet arrival rate (>= 5 Hz).")
+    struct EStopStatus {
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        "True when the course E-Stop relay is OPEN (button pressed) as read back" "\n"
+        "on RJ45 pins 5-8 by the team radio and relayed to the robot.")
+      boolean estop_pressed;
+
+      @verbatim (language="comment", text=
+        "True while heartbeat packets are arriving from the ESP32 within the" "\n"
+        "configured timeout. False is treated as an implicit E-Stop (fail-safe).")
+      boolean link_ok;
+
+      @verbatim (language="comment", text=
+        "True while the team-radio <-> robot-radio RF link itself is healthy" "\n"
+        "(distinct from the Jetson<->ESP32 UART link captured by link_ok).")
+      boolean radio_ok;
+
+      uint8 heartbeat_seq;
+
+      uint16 battery_millivolts;
+
+      int8 radio_rssi_dbm;
+    };
+  };
+};

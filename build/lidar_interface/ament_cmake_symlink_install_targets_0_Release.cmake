@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/mnt/external/DIY/CameraModule/autonomous_rc/build/lidar_interface/scan_filter_node" "TARGETS" "scan_filter_node" "DESTINATION" "lib/lidar_interface")

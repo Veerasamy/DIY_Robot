@@ -1,0 +1,350 @@
+[0.028s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface
+[0.104s] -- The C compiler identification is GNU 15.3.0
+[0.237s] -- The CXX compiler identification is GNU 15.3.0
+[0.251s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cc - skipped
+[0.384s] -- Detecting C compile features
+[0.384s] -- Detecting C compile features - done
+[0.405s] -- Detecting CXX compiler ABI info
+[0.656s] -- Detecting CXX compiler ABI info - done
+[0.681s] -- Check for working CXX compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/c++ - skipped
+[0.681s] -- Detecting CXX compile features
+[0.682s] -- Detecting CXX compile features - done
+[0.697s] -- Found ament_cmake: 2.5.6 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake/cmake)
+[0.883s] -- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+[0.994s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.044s] -- Found rclcpp: 28.1.21 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake)
+[1.103s] -- Found rosidl_generator_c: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_c/cmake)
+[1.124s] -- Found rosidl_generator_cpp: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_cpp/cmake)
+[1.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.294s] -- Found rmw_implementation_cmake: 7.3.3 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_implementation_cmake/cmake)
+[1.300s] -- Found rmw_fastrtps_cpp: 8.4.4 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.834s] -- Found OpenSSL: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcrypto.so (found version "3.6.4")
+[1.875s] -- Found FastRTPS: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/include (Required is at least version "2.13")
+[1.936s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.042s] -- Found sensor_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake)
+[2.148s] -- Found nav_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/nav_msgs/cmake)
+[2.190s] -- Found cv_bridge: 4.1.0 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/cv_bridge/cmake)
+[2.206s] -- Found image_transport: 5.1.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/image_transport/cmake)
+[2.242s] -- Found tf2: 0.36.22 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2/cmake)
+[2.251s] -- Found tf2_ros: 0.36.22 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_ros/cmake)
+[2.452s] -- Found tf2_geometry_msgs: 0.36.22 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/tf2_geometry_msgs/cmake)
+[2.468s] -- Found eigen3_cmake_module: 0.3.1 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/eigen3_cmake_module/cmake)
+[2.470s] -- Found Eigen3: TRUE (found version "5.0.1")
+[2.471s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.477s] -- Found OpenCV: /home/u_ramesa2/micromamba/envs/ros_env_jazzy (found version "4.13.0")
+[2.508s] -- Found CUDAToolkit: /usr/local/cuda/targets/x86_64-linux/include (found version "12.2.140")
+[2.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.647s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.647s] -- Found Threads: TRUE
+[2.923s] -- Found ament_lint_auto: 0.17.5 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_lint_auto/cmake)
+[3.128s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.131s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.131s] -- Configured cppcheck include dirs: /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/include
+[3.131s] -- Configured cppcheck exclude dirs and/or files: 
+[3.134s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.134s] -- Configured cpplint exclude dirs and/or files: 
+[3.135s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.135s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.136s] -- Added test 'lint_cmake' to check CMake code style
+[3.136s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.138s] -- Added test 'uncrustify' to check C / C++ code style
+[3.138s] -- Configured uncrustify additional arguments: 
+[3.139s] -- Added test 'xmllint' to check XML markup files
+[3.143s] -- Configuring done (3.1s)
+[3.201s] -- Generating done (0.1s)
+[3.337s] -- Build files have been written to: /mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface
+[3.354s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface
+[3.355s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface -- -j20 -l20
+[3.425s] [ 66%] Building CXX object CMakeFiles/zed_interface_node.dir/src/main.cpp.o
+[3.425s] [ 66%] Building CXX object CMakeFiles/zed_interface_node.dir/src/zed_interface_node.cpp.o
+[4.662s] In file included from /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/include/zed_interface/zed_interface_node.hpp:16,
+[4.663s]                  from /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/src/zed_interface_node.cpp:1:
+[4.663s] /usr/local/zed/include/sl/Camera.hpp:1156:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[4.663s]  1156 |             struct {
+[4.663s]       |                    ^
+[4.663s] /usr/local/zed/include/sl/Camera.hpp:1307:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[4.663s]  1307 |             struct {
+[4.664s]       |                    ^
+[4.664s] /usr/local/zed/include/sl/Camera.hpp:1493:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[4.664s]  1493 |             struct {
+[4.664s]       |                    ^
+[4.664s] /usr/local/zed/include/sl/Camera.hpp:1551:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[4.664s]  1551 |         _FCT_CPU_GPU_ Vector2<T>(const Vector2<T> &v) {
+[4.664s]       |                                 ^
+[4.664s] /usr/local/zed/include/sl/Camera.hpp:1551:33: note: remove the '< >'
+[4.664s] /usr/local/zed/include/sl/Camera.hpp:1708:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[4.664s]  1708 |             struct {
+[4.665s]       |                    ^
+[4.665s] /usr/local/zed/include/sl/Camera.hpp:1712:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[4.665s]  1712 |             struct {
+[4.665s]       |                    ^
+[4.665s] /usr/local/zed/include/sl/Camera.hpp:1716:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[4.665s]  1716 |             struct {
+[4.665s]       |                    ^
+[4.666s] /usr/local/zed/include/sl/Camera.hpp:1777:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[4.666s]  1777 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+[4.666s]       |                                 ^
+[4.666s] /usr/local/zed/include/sl/Camera.hpp:1777:33: note: remove the '< >'
+[4.666s] /usr/local/zed/include/sl/Camera.hpp:1788:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[4.666s]  1788 |         _FCT_CPU_GPU_ Vector3<T>(const Vector2<T> &v, const T d = 0) {
+[4.666s]       |                                 ^
+[4.666s] /usr/local/zed/include/sl/Camera.hpp:1788:33: note: remove the '< >'
+[4.666s] /usr/local/zed/include/sl/Camera.hpp:1799:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[4.666s]  1799 |         _FCT_CPU_GPU_ Vector3<T>(const Vector4<T>& v) {
+[4.666s]       |                                 ^
+[4.666s] /usr/local/zed/include/sl/Camera.hpp:1799:33: note: remove the '< >'
+[4.667s] /usr/local/zed/include/sl/Camera.hpp:2024:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[4.667s]  2024 |             struct {
+[4.667s]       |                    ^
+[4.667s] /usr/local/zed/include/sl/Camera.hpp:2028:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[4.667s]  2028 |             struct {
+[4.667s]       |                    ^
+[4.667s] /usr/local/zed/include/sl/Camera.hpp:2032:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[4.667s]  2032 |             struct {
+[4.667s]       |                    ^
+[4.667s] /usr/local/zed/include/sl/Camera.hpp:2096:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[4.668s]  2096 |         _FCT_CPU_GPU_ Vector4<T>(const Vector4<T> &v) {
+[4.668s]       |                                 ^
+[4.668s] /usr/local/zed/include/sl/Camera.hpp:2096:33: note: remove the '< >'
+[4.668s] /usr/local/zed/include/sl/Camera.hpp:2108:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[4.668s]  2108 |         _FCT_CPU_GPU_ Vector4<T>(const Vector4<T> &v, const T d) {
+[4.668s]       |                                 ^
+[4.668s] /usr/local/zed/include/sl/Camera.hpp:2108:33: note: remove the '< >'
+[4.669s] /usr/local/zed/include/sl/Camera.hpp:2120:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[4.669s]  2120 |         _FCT_CPU_GPU_ Vector4<T>(const Vector3<T>& v, const T d = 0) {
+[4.669s]       |                                 ^
+[4.669s] /usr/local/zed/include/sl/Camera.hpp:2120:33: note: remove the '< >'
+[4.669s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator+(Timestamp, const Timestamp&)':
+[4.669s] /usr/local/zed/include/sl/Camera.hpp:2583:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[4.669s]  2583 |         return lhs;
+[4.669s]       |                ^~~
+[4.669s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[4.669s]  2504 |         Timestamp& operator=(Timestamp other) {
+[4.669s]       |                    ^~~~~~~~
+[4.669s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator-(Timestamp, const Timestamp&)':
+[4.669s] /usr/local/zed/include/sl/Camera.hpp:2588:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[4.670s]  2588 |         return lhs;
+[4.670s]       |                ^~~
+[4.670s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[4.670s]  2504 |         Timestamp& operator=(Timestamp other) {
+[4.670s]       |                    ^~~~~~~~
+[4.670s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator/(Timestamp, const Timestamp&)':
+[4.670s] /usr/local/zed/include/sl/Camera.hpp:2593:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[4.670s]  2593 |         return lhs;
+[4.670s]       |                ^~~
+[4.670s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[4.670s]  2504 |         Timestamp& operator=(Timestamp other) {
+[4.670s]       |                    ^~~~~~~~
+[4.670s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator*(Timestamp, const Timestamp&)':
+[4.671s] /usr/local/zed/include/sl/Camera.hpp:2598:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[4.671s]  2598 |         return lhs;
+[4.671s]       |                ^~~
+[4.671s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[4.671s]  2504 |         Timestamp& operator=(Timestamp other) {
+[4.671s]       |                    ^~~~~~~~
+[4.671s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::getCurrentTimeStamp()':
+[4.671s] /usr/local/zed/include/sl/Camera.hpp:2632:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[4.671s]  2632 |         return current_ts;
+[4.671s]       |                ^~~~~~~~~~
+[4.671s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[4.671s]  2504 |         Timestamp& operator=(Timestamp other) {
+[4.671s]       |                    ^~~~~~~~
+[4.672s] /usr/local/zed/include/sl/Camera.hpp: In function 'cudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)':
+[4.672s] /usr/local/zed/include/sl/Camera.hpp:2639:89: warning: unused parameter 'file' [-Wunused-parameter]
+[4.672s]  2639 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+[4.672s]       |                                                                             ~~~~~~~~~~~~^~~~
+[4.672s] /usr/local/zed/include/sl/Camera.hpp:2639:105: warning: unused parameter 'line' [-Wunused-parameter]
+[4.672s]  2639 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+[4.672s]       |                                                                                               ~~~~~~~~~~^~~~
+[4.675s] /usr/local/zed/include/sl/Camera.hpp: In member function 'sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const':
+[4.676s] /usr/local/zed/include/sl/Camera.hpp:3755:62: warning: implicitly-declared 'sl::Transform& sl::Transform::operator=(const sl::Transform&)' is deprecated [-Wdeprecated-copy]
+[4.676s]  3755 |             output_calibration_parameters.stereo_transform = stereo_transform;
+[4.676s]       |                                                              ^~~~~~~~~~~~~~~~
+[4.676s] /usr/local/zed/include/sl/Camera.hpp:3538:9: note: because 'sl::Transform' has user-provided 'sl::Transform::Transform(const sl::Transform&)'
+[4.676s]  3538 |         Transform(const Transform &motion);
+[4.676s]       |         ^~~~~~~~~
+[4.676s] /usr/local/zed/include/sl/Camera.hpp: In member function 'sl::Transform& sl::Transform::operator=(const sl::Transform&)':
+[4.676s] /usr/local/zed/include/sl/Camera.hpp:3527:60: warning: implicitly-declared 'sl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)' is deprecated [-Wdeprecated-copy]
+[4.676s]  3527 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Transform : public Matrix4f {
+[4.676s]       |                                                            ^~~~~~~~~
+[4.676s] /usr/local/zed/include/sl/Camera.hpp:1329:9: note: because 'sl::Matrix4f' has user-provided 'sl::Matrix4f::Matrix4f(const sl::Matrix4f&)'
+[4.676s]  1329 |         Matrix4f(const Matrix4f &mat);
+[4.677s]       |         ^~~~~~~~
+[4.677s] /usr/local/zed/include/sl/Camera.hpp: In member function 'sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const':
+[4.677s] /usr/local/zed/include/sl/Camera.hpp:3755:62: note: synthesized method 'sl::Transform& sl::Transform::operator=(const sl::Transform&)' first required here
+[4.677s]  3755 |             output_calibration_parameters.stereo_transform = stereo_transform;
+[4.677s]       |                                                              ^~~~~~~~~~~~~~~~
+[4.746s] /usr/local/zed/include/sl/Camera.hpp: In constructor 'sl::SVOData::SVOData(std::string&, std::vector<unsigned char>&, sl::Timestamp)':
+[4.747s] /usr/local/zed/include/sl/Camera.hpp:6058:28: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[4.747s]  6058 |             timestamp_ns = timestamp_ns_;
+[4.747s]       |                            ^~~~~~~~~~~~~
+[4.747s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[4.747s]  2504 |         Timestamp& operator=(Timestamp other) {
+[4.747s]       |                    ^~~~~~~~
+[4.747s] /usr/local/zed/include/sl/Camera.hpp:2504:40: note: initializing argument 1 of 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[4.747s]  2504 |         Timestamp& operator=(Timestamp other) {
+[4.747s]       |                              ~~~~~~~~~~^~~~~
+[4.770s] /usr/local/zed/include/sl/Camera.hpp: At global scope:
+[4.770s] /usr/local/zed/include/sl/Camera.hpp:6984:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.770s]  6984 |     inline const void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+[4.770s]       |            ^~~~~
+[6.746s] In file included from /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/include/zed_interface/zed_interface_node.hpp:16,
+[6.746s]                  from /mnt/external/DIY/CameraModule/autonomous_rc/src/zed_interface/src/main.cpp:2:
+[6.746s] /usr/local/zed/include/sl/Camera.hpp:1156:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[6.746s]  1156 |             struct {
+[6.746s]       |                    ^
+[6.746s] /usr/local/zed/include/sl/Camera.hpp:1307:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[6.747s]  1307 |             struct {
+[6.747s]       |                    ^
+[6.747s] /usr/local/zed/include/sl/Camera.hpp:1493:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[6.747s]  1493 |             struct {
+[6.747s]       |                    ^
+[6.747s] /usr/local/zed/include/sl/Camera.hpp:1551:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[6.747s]  1551 |         _FCT_CPU_GPU_ Vector2<T>(const Vector2<T> &v) {
+[6.747s]       |                                 ^
+[6.747s] /usr/local/zed/include/sl/Camera.hpp:1551:33: note: remove the '< >'
+[6.748s] /usr/local/zed/include/sl/Camera.hpp:1708:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[6.748s]  1708 |             struct {
+[6.748s]       |                    ^
+[6.748s] /usr/local/zed/include/sl/Camera.hpp:1712:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[6.748s]  1712 |             struct {
+[6.748s]       |                    ^
+[6.748s] /usr/local/zed/include/sl/Camera.hpp:1716:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[6.748s]  1716 |             struct {
+[6.748s]       |                    ^
+[6.748s] /usr/local/zed/include/sl/Camera.hpp:1777:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[6.749s]  1777 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+[6.749s]       |                                 ^
+[6.749s] /usr/local/zed/include/sl/Camera.hpp:1777:33: note: remove the '< >'
+[6.749s] /usr/local/zed/include/sl/Camera.hpp:1788:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[6.749s]  1788 |         _FCT_CPU_GPU_ Vector3<T>(const Vector2<T> &v, const T d = 0) {
+[6.749s]       |                                 ^
+[6.749s] /usr/local/zed/include/sl/Camera.hpp:1788:33: note: remove the '< >'
+[6.749s] /usr/local/zed/include/sl/Camera.hpp:1799:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[6.749s]  1799 |         _FCT_CPU_GPU_ Vector3<T>(const Vector4<T>& v) {
+[6.749s]       |                                 ^
+[6.749s] /usr/local/zed/include/sl/Camera.hpp:1799:33: note: remove the '< >'
+[6.751s] /usr/local/zed/include/sl/Camera.hpp:2024:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[6.751s]  2024 |             struct {
+[6.752s]       |                    ^
+[6.752s] /usr/local/zed/include/sl/Camera.hpp:2028:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[6.752s]  2028 |             struct {
+[6.752s]       |                    ^
+[6.752s] /usr/local/zed/include/sl/Camera.hpp:2032:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[6.752s]  2032 |             struct {
+[6.752s]       |                    ^
+[6.752s] /usr/local/zed/include/sl/Camera.hpp:2096:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[6.752s]  2096 |         _FCT_CPU_GPU_ Vector4<T>(const Vector4<T> &v) {
+[6.752s]       |                                 ^
+[6.752s] /usr/local/zed/include/sl/Camera.hpp:2096:33: note: remove the '< >'
+[6.753s] /usr/local/zed/include/sl/Camera.hpp:2108:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[6.753s]  2108 |         _FCT_CPU_GPU_ Vector4<T>(const Vector4<T> &v, const T d) {
+[6.753s]       |                                 ^
+[6.753s] /usr/local/zed/include/sl/Camera.hpp:2108:33: note: remove the '< >'
+[6.753s] /usr/local/zed/include/sl/Camera.hpp:2120:33: warning: template-id not allowed for constructor in C++20 [-Wtemplate-id-cdtor]
+[6.753s]  2120 |         _FCT_CPU_GPU_ Vector4<T>(const Vector3<T>& v, const T d = 0) {
+[6.753s]       |                                 ^
+[6.753s] /usr/local/zed/include/sl/Camera.hpp:2120:33: note: remove the '< >'
+[6.754s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator+(Timestamp, const Timestamp&)':
+[6.754s] /usr/local/zed/include/sl/Camera.hpp:2583:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[6.754s]  2583 |         return lhs;
+[6.754s]       |                ^~~
+[6.754s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[6.754s]  2504 |         Timestamp& operator=(Timestamp other) {
+[6.754s]       |                    ^~~~~~~~
+[6.754s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator-(Timestamp, const Timestamp&)':
+[6.755s] /usr/local/zed/include/sl/Camera.hpp:2588:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[6.755s]  2588 |         return lhs;
+[6.755s]       |                ^~~
+[6.755s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[6.756s]  2504 |         Timestamp& operator=(Timestamp other) {
+[6.756s]       |                    ^~~~~~~~
+[6.756s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator/(Timestamp, const Timestamp&)':
+[6.756s] /usr/local/zed/include/sl/Camera.hpp:2593:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[6.756s]  2593 |         return lhs;
+[6.756s]       |                ^~~
+[6.756s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[6.757s]  2504 |         Timestamp& operator=(Timestamp other) {
+[6.758s]       |                    ^~~~~~~~
+[6.758s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::operator*(Timestamp, const Timestamp&)':
+[6.758s] /usr/local/zed/include/sl/Camera.hpp:2598:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[6.758s]  2598 |         return lhs;
+[6.758s]       |                ^~~
+[6.758s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[6.758s]  2504 |         Timestamp& operator=(Timestamp other) {
+[6.758s]       |                    ^~~~~~~~
+[6.758s] /usr/local/zed/include/sl/Camera.hpp: In function 'sl::Timestamp sl::getCurrentTimeStamp()':
+[6.758s] /usr/local/zed/include/sl/Camera.hpp:2632:16: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[6.759s]  2632 |         return current_ts;
+[6.759s]       |                ^~~~~~~~~~
+[6.759s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[6.759s]  2504 |         Timestamp& operator=(Timestamp other) {
+[6.759s]       |                    ^~~~~~~~
+[6.759s] /usr/local/zed/include/sl/Camera.hpp: In function 'cudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)':
+[6.759s] /usr/local/zed/include/sl/Camera.hpp:2639:89: warning: unused parameter 'file' [-Wunused-parameter]
+[6.759s]  2639 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+[6.759s]       |                                                                             ~~~~~~~~~~~~^~~~
+[6.759s] /usr/local/zed/include/sl/Camera.hpp:2639:105: warning: unused parameter 'line' [-Wunused-parameter]
+[6.759s]  2639 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+[6.760s]       |                                                                                               ~~~~~~~~~~^~~~
+[6.765s] /usr/local/zed/include/sl/Camera.hpp: In member function 'sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const':
+[6.765s] /usr/local/zed/include/sl/Camera.hpp:3755:62: warning: implicitly-declared 'sl::Transform& sl::Transform::operator=(const sl::Transform&)' is deprecated [-Wdeprecated-copy]
+[6.765s]  3755 |             output_calibration_parameters.stereo_transform = stereo_transform;
+[6.765s]       |                                                              ^~~~~~~~~~~~~~~~
+[6.765s] /usr/local/zed/include/sl/Camera.hpp:3538:9: note: because 'sl::Transform' has user-provided 'sl::Transform::Transform(const sl::Transform&)'
+[6.765s]  3538 |         Transform(const Transform &motion);
+[6.765s]       |         ^~~~~~~~~
+[6.766s] /usr/local/zed/include/sl/Camera.hpp: In member function 'sl::Transform& sl::Transform::operator=(const sl::Transform&)':
+[6.766s] /usr/local/zed/include/sl/Camera.hpp:3527:60: warning: implicitly-declared 'sl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)' is deprecated [-Wdeprecated-copy]
+[6.766s]  3527 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Transform : public Matrix4f {
+[6.766s]       |                                                            ^~~~~~~~~
+[6.766s] /usr/local/zed/include/sl/Camera.hpp:1329:9: note: because 'sl::Matrix4f' has user-provided 'sl::Matrix4f::Matrix4f(const sl::Matrix4f&)'
+[6.766s]  1329 |         Matrix4f(const Matrix4f &mat);
+[6.766s]       |         ^~~~~~~~
+[6.766s] /usr/local/zed/include/sl/Camera.hpp: In member function 'sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const':
+[6.766s] /usr/local/zed/include/sl/Camera.hpp:3755:62: note: synthesized method 'sl::Transform& sl::Transform::operator=(const sl::Transform&)' first required here
+[6.766s]  3755 |             output_calibration_parameters.stereo_transform = stereo_transform;
+[6.767s]       |                                                              ^~~~~~~~~~~~~~~~
+[6.861s] /usr/local/zed/include/sl/Camera.hpp: In constructor 'sl::SVOData::SVOData(std::string&, std::vector<unsigned char, std::allocator<unsigned char> >&, sl::Timestamp)':
+[6.861s] /usr/local/zed/include/sl/Camera.hpp:6058:28: warning: implicitly-declared 'constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)' is deprecated [-Wdeprecated-copy]
+[6.861s]  6058 |             timestamp_ns = timestamp_ns_;
+[6.861s]       |                            ^~~~~~~~~~~~~
+[6.862s] /usr/local/zed/include/sl/Camera.hpp:2504:20: note: because 'sl::Timestamp' has user-provided 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[6.862s]  2504 |         Timestamp& operator=(Timestamp other) {
+[6.862s]       |                    ^~~~~~~~
+[6.862s] /usr/local/zed/include/sl/Camera.hpp:2504:40: note: initializing argument 1 of 'sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)'
+[6.862s]  2504 |         Timestamp& operator=(Timestamp other) {
+[6.862s]       |                              ~~~~~~~~~~^~~~~
+[6.888s] /usr/local/zed/include/sl/Camera.hpp: At global scope:
+[6.888s] /usr/local/zed/include/sl/Camera.hpp:6984:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[6.888s]  6984 |     inline const void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+[6.888s]       |            ^~~~~
+[22.031s] [100%] Linking CXX executable zed_interface_node
+[22.314s] [100%] Built target zed_interface_node
+[22.326s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface -- -j20 -l20
+[22.328s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface
+[22.336s] -- Install configuration: "Release"
+[22.337s] -- Execute custom install script
+[22.337s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/lib/zed_interface/zed_interface_node
+[22.346s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/launch/zed_interface.launch.py
+[22.355s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/config/obstacle_mode.yaml
+[22.364s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/config/speed_mode.yaml
+[22.373s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/ament_index/resource_index/package_run_dependencies/zed_interface
+[22.383s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/ament_index/resource_index/parent_prefix_path/zed_interface
+[22.393s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/environment/ament_prefix_path.sh
+[22.400s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/environment/ament_prefix_path.dsv
+[22.408s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/environment/path.sh
+[22.418s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/environment/path.dsv
+[22.427s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/local_setup.bash
+[22.436s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/local_setup.sh
+[22.445s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/local_setup.zsh
+[22.455s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/local_setup.dsv
+[22.464s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.dsv
+[22.473s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/ament_index/resource_index/packages/zed_interface
+[22.483s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/cmake/zed_interfaceConfig.cmake
+[22.493s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/cmake/zed_interfaceConfig-version.cmake
+[22.503s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/zed_interface/share/zed_interface/package.xml
+[22.515s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/zed_interface

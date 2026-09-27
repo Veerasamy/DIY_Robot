@@ -1,0 +1,80 @@
+[0.010s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/controller
+[0.079s] -- The C compiler identification is GNU 15.3.0
+[0.187s] -- The CXX compiler identification is GNU 15.3.0
+[0.197s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.307s] -- Check for working C compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.307s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.464s] -- Detecting CXX compiler ABI info - done
+[0.491s] -- Check for working CXX compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/c++ - skipped
+[0.492s] -- Detecting CXX compile features
+[0.493s] -- Detecting CXX compile features - done
+[0.506s] -- Found ament_cmake: 2.5.6 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake/cmake)
+[0.685s] -- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+[0.772s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.831s] -- Found rclcpp: 28.1.21 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake)
+[0.892s] -- Found rosidl_generator_c: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_c/cmake)
+[0.912s] -- Found rosidl_generator_cpp: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_cpp/cmake)
+[0.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.074s] -- Found rmw_implementation_cmake: 7.3.3 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_implementation_cmake/cmake)
+[1.079s] -- Found rmw_fastrtps_cpp: 8.4.4 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.482s] -- Found OpenSSL: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcrypto.so (found version "3.6.4")
+[1.521s] -- Found FastRTPS: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/include (Required is at least version "2.13")
+[1.582s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.694s] -- Found nav_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/nav_msgs/cmake)
+[1.779s] -- Found ackermann_msgs: 2.0.2 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ackermann_msgs/cmake)
+[1.802s] -- Found safety_manager: 1.0.0 (/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/share/safety_manager/cmake)
+[1.829s] -- Found ament_lint_auto: 0.17.5 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_lint_auto/cmake)
+[1.975s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.977s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.977s] -- Configured cppcheck include dirs: /mnt/external/DIY/CameraModule/autonomous_rc/src/controller/include
+[1.977s] -- Configured cppcheck exclude dirs and/or files: 
+[1.979s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.979s] -- Configured cpplint exclude dirs and/or files: 
+[1.980s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.980s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.981s] -- Added test 'lint_cmake' to check CMake code style
+[1.981s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.983s] -- Added test 'uncrustify' to check C / C++ code style
+[1.983s] -- Configured uncrustify additional arguments: 
+[1.984s] -- Added test 'xmllint' to check XML markup files
+[1.986s] -- Configuring done (2.0s)
+[2.017s] -- Generating done (0.0s)
+[2.073s] -- Build files have been written to: /mnt/external/DIY/CameraModule/autonomous_rc/build/controller
+[2.084s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/controller
+[2.085s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/controller -- -j20 -l20
+[2.134s] [ 14%] Building CXX object CMakeFiles/steering_controllers.dir/src/pure_pursuit_controller.cpp.o
+[2.134s] [ 28%] Building CXX object CMakeFiles/steering_controllers.dir/src/stanley_controller.cpp.o
+[2.135s] [ 42%] Building CXX object CMakeFiles/steering_controllers.dir/src/mpc_controller.cpp.o
+[2.608s] [ 57%] Linking CXX static library libsteering_controllers.a
+[2.643s] [ 57%] Built target steering_controllers
+[2.664s] [ 71%] Building CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o
+[2.665s] [ 85%] Building CXX object CMakeFiles/pure_pursuit_node.dir/src/main.cpp.o
+[29.307s] [100%] Linking CXX executable pure_pursuit_node
+[29.534s] [100%] Built target pure_pursuit_node
+[29.545s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/controller -- -j20 -l20
+[29.546s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/controller
+[29.553s] -- Install configuration: "Release"
+[29.553s] -- Execute custom install script
+[29.554s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib/controller/pure_pursuit_node
+[29.561s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/lib/libsteering_controllers.a
+[29.569s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/launch/controller.launch.py
+[29.579s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[29.587s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[29.595s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/environment/ament_prefix_path.sh
+[29.603s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/environment/ament_prefix_path.dsv
+[29.611s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/environment/path.sh
+[29.619s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/environment/path.dsv
+[29.628s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/local_setup.bash
+[29.636s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/local_setup.sh
+[29.643s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/local_setup.zsh
+[29.651s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/local_setup.dsv
+[29.659s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.dsv
+[29.666s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/ament_index/resource_index/packages/controller
+[29.673s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/cmake/controllerConfig.cmake
+[29.680s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[29.690s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/controller/share/controller/package.xml
+[29.700s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/controller' returned '0': AMENT_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager:/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) LD_LIBRARY_PATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib PYTHONPATH=/mnt/external/DIY/CameraModule/autonomous_rc/install/safety_manager/lib/python3.12/site-packages:${PYTHONPATH} /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/controller

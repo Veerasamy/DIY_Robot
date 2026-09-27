@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/mnt/external/DIY/CameraModule/autonomous_rc/build/safety_manager/estop_bridge_node" "TARGETS" "estop_bridge_node" "DESTINATION" "lib/safety_manager")

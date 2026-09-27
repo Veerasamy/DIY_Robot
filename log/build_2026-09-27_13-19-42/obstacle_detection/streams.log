@@ -1,0 +1,79 @@
+[0.020s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/obstacle_detection -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection
+[0.096s] -- The C compiler identification is GNU 15.3.0
+[0.233s] -- The CXX compiler identification is GNU 15.3.0
+[0.246s] -- Detecting C compiler ABI info
+[0.354s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cc - skipped
+[0.380s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.399s] -- Detecting CXX compiler ABI info
+[0.566s] -- Detecting CXX compiler ABI info - done
+[0.596s] -- Check for working CXX compiler: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/c++ - skipped
+[0.596s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.614s] -- Found ament_cmake: 2.5.6 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_cmake/cmake)
+[0.815s] -- Found Python3: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/python3 (found version "3.12.14") found components: Interpreter
+[0.906s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.959s] -- Found rclcpp: 28.1.21 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rclcpp/cmake)
+[1.017s] -- Found rosidl_generator_c: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_c/cmake)
+[1.039s] -- Found rosidl_generator_cpp: 4.6.9 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rosidl_generator_cpp/cmake)
+[1.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.210s] -- Found rmw_implementation_cmake: 7.3.3 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_implementation_cmake/cmake)
+[1.214s] -- Found rmw_fastrtps_cpp: 8.4.4 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.714s] -- Found OpenSSL: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/lib/libcrypto.so (found version "3.6.4")
+[1.769s] -- Found FastRTPS: /home/u_ramesa2/micromamba/envs/ros_env_jazzy/include (Required is at least version "2.13")
+[1.842s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.967s] -- Found sensor_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/sensor_msgs/cmake)
+[2.049s] -- Found nav_msgs: 5.3.8 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/nav_msgs/cmake)
+[2.086s] -- Found cv_bridge: 4.1.0 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/cv_bridge/cmake)
+[2.103s] -- Found OpenCV: /home/u_ramesa2/micromamba/envs/ros_env_jazzy (found version "4.13.0")
+[2.110s] -- Found ament_lint_auto: 0.17.5 (/home/u_ramesa2/micromamba/envs/ros_env_jazzy/share/ament_lint_auto/cmake)
+[2.271s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.274s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.274s] -- Configured cppcheck include dirs: /mnt/external/DIY/CameraModule/autonomous_rc/src/obstacle_detection/include
+[2.275s] -- Configured cppcheck exclude dirs and/or files: 
+[2.276s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.276s] -- Configured cpplint exclude dirs and/or files: 
+[2.278s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.278s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.278s] -- Added test 'lint_cmake' to check CMake code style
+[2.279s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.282s] -- Added test 'uncrustify' to check C / C++ code style
+[2.282s] -- Configured uncrustify additional arguments: 
+[2.283s] -- Added test 'xmllint' to check XML markup files
+[2.287s] -- Configuring done (2.3s)
+[2.329s] -- Generating done (0.0s)
+[2.419s] -- Build files have been written to: /mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection
+[2.432s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake /mnt/external/DIY/CameraModule/autonomous_rc/src/obstacle_detection -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection
+[2.433s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection -- -j20 -l20
+[2.494s] [ 20%] Building CXX object CMakeFiles/vfh_planner.dir/src/vfh_planner.cpp.o
+[3.098s] [ 40%] Linking CXX static library libvfh_planner.a
+[3.141s] [ 40%] Built target vfh_planner
+[3.167s] [ 60%] Building CXX object CMakeFiles/obstacle_avoidance_node.dir/src/obstacle_avoidance_node.cpp.o
+[3.168s] [ 80%] Building CXX object CMakeFiles/obstacle_avoidance_node.dir/src/main.cpp.o
+[34.757s] [100%] Linking CXX executable obstacle_avoidance_node
+[35.485s] [100%] Built target obstacle_avoidance_node
+[35.495s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --build /mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection -- -j20 -l20
+[35.497s] Invoking command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection
+[35.506s] -- Install configuration: "Release"
+[35.506s] -- Execute custom install script
+[35.507s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/lib/obstacle_detection/obstacle_avoidance_node
+[35.515s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/lib/libvfh_planner.a
+[35.525s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/launch/obstacle_detection.launch.py
+[35.534s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/ament_index/resource_index/package_run_dependencies/obstacle_detection
+[35.542s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/ament_index/resource_index/parent_prefix_path/obstacle_detection
+[35.552s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/environment/ament_prefix_path.sh
+[35.559s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/environment/ament_prefix_path.dsv
+[35.568s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/environment/path.sh
+[35.577s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/environment/path.dsv
+[35.587s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/local_setup.bash
+[35.595s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/local_setup.sh
+[35.603s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/local_setup.zsh
+[35.612s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/local_setup.dsv
+[35.620s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.dsv
+[35.629s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/ament_index/resource_index/packages/obstacle_detection
+[35.638s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/cmake/obstacle_detectionConfig.cmake
+[35.646s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/cmake/obstacle_detectionConfig-version.cmake
+[35.656s] -- Symlinking: /mnt/external/DIY/CameraModule/autonomous_rc/install/obstacle_detection/share/obstacle_detection/package.xml
+[35.666s] Invoked command in '/mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=/home/u_ramesa2/micromamba/envs/ros_env_jazzy CONDA_PROMPT_MODIFIER=(ros_env_jazzy) /home/u_ramesa2/micromamba/envs/ros_env_jazzy/bin/cmake --install /mnt/external/DIY/CameraModule/autonomous_rc/build/obstacle_detection
