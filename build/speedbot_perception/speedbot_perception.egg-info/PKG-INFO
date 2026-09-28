@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: speedbot-perception
+Version: 0.1.0
+Summary: Perception stack for autonomous speed course robot
+Maintainer: Arnab
+Maintainer-email: Arnab@todo.todo
+License: Apache-2.0
+Provides-Extra: test

@@ -1,0 +1,4 @@
+[console_scripts]
+hsv_tuner = speedbot_perception.hsv_tuner_node:main
+lidar_processor = speedbot_perception.lidar_processor_node:main
+wall_detector = speedbot_perception.wall_detector_node:main

@@ -1,0 +1,3 @@
+[console_scripts]
+drive_controller = speedbot_control.drive_controller_node:main
+motor_bridge = speedbot_control.motor_bridge_node:main

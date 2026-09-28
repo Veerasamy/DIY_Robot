@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-bed89000900ba84397f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_components",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_components_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_components_files-Release-f83ac98a47edcf7e4318.json",
+					"name" : "all_zed_components_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-52910b3b033c233c0886.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_camera_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_camera_component-Release-697330f4ea0259eb442f.json",
+					"name" : "zed_camera_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_camera_one_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_camera_one_component-Release-4f5b2495f56279ce035d.json",
+					"name" : "zed_camera_one_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_components_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_components_uninstall-Release-4cf3616c54154341d333.json",
+					"name" : "zed_components_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/Arnab/DIY_AntiGravity/build/zed_components",
+		"source" : "/home/Arnab/DIY_AntiGravity/src/zed-ros2-wrapper/zed_components"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
