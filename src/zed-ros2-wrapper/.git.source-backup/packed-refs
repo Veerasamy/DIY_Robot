@@ -1,0 +1,27 @@
+# pack-refs with: peeled fully-peeled sorted 
+184eefa218631e45345b844207ee6fff27679155 refs/remotes/origin/add-reboot-service
+2e9c1bad2636cf62c55dff064db188a468b25dac refs/remotes/origin/adding_foxglove_bridge_docker
+f75b0ff70a9c04160744d88146a529cb7337c4cb refs/remotes/origin/master
+2ddfaf4ec17f45c66f4a84be430a251d24345bcd refs/remotes/origin/publish_od_tf
+bc764841722769babe5cccd082d3f08c8b0ab825 refs/tags/crystal
+c41f65baa5ea5273de0c6d7633f9bf6d335bf8bb refs/tags/crystal-0.1
+852ac517b594a0187447b586fd3e6ffed2d2ebea refs/tags/eloquent-v3.5
+058c708e1869983c0e9dfc984287a6e159d9dfba refs/tags/foxy-humble-v3.8
+7d393c30cdcc794de43dac624548d787b9b045cd refs/tags/foxy-humble-v3.8.2
+6e5865a4c8adce96882871b357bddd85cb2700f3 refs/tags/foxy-humble-v4.0.5
+b512dce6ad4565f4770273995b147122e735ca0f refs/tags/foxy-v3.5
+de1dfc4cde9ada3173074a05e14631d4d56e442c refs/tags/foxy-v3.5.1
+7cbd090186a838a93b0077fc861b887ba55aefc3 refs/tags/foxy-v3.6
+55a4302c6365ab2742e61f4cbfbd34960d3955b2 refs/tags/foxy-v3.7
+77a043a6d7fb5802ac49562e61efc1a4d6b5fc3f refs/tags/humble-v4.0.8
+da7f6ac549ba212339670cff1b9ef442380b5615 refs/tags/humble-v4.1.4
+b5844a81b0baa4e6b847a16030bcf4075f2b3d1d refs/tags/humble-v4.2.5
+0c168064611ceecbd49cd3a84ae865f72970eafc refs/tags/humble-v4.2.x
+a66e227e290fb26b9e21b0f45aedcbf93ace52b9 refs/tags/humble-v5.0.0
+458c72514c08856b2e911c011283eda2dae3b915 refs/tags/humble-v5.1.0
+506e04757fdee442f055ddf280dfd36875732623 refs/tags/v5.2.0
+b47c72779add6d58a4dba9c888b9ea529f6ae448 refs/tags/v5.2.2
+87187baf2185401bc2d252003d58fbeafe7d005d refs/tags/v5.3.1
+6545933af94d70922881654e6fb29d95e3a8f14f refs/tags/v5.4.0
+86171bccda22de6e83ccc69b3c0e67af99dece7c refs/tags/v5.4.1
+431dcf4b1ea39caf894ca6ea294437437dbdb034 refs/tags/v5.5.0

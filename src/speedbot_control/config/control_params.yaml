@@ -1,0 +1,89 @@
+###############################################################################
+# SpeedBot Control Parameters
+# Tune PID gains and speed profiles on the actual robot.
+###############################################################################
+
+drive_controller:
+  ros__parameters:
+    # ── Input Topics (from perception) ──
+    lane_offset_topic: "/perception/lane_center_offset"
+    gap_angle_topic: "/perception/best_gap_angle"
+    closest_obstacle_topic: "/perception/closest_obstacle"
+    boundary_topic: "/perception/track_boundaries"
+
+    # ── Output Topic ──
+    # Publishes AckermannDriveStamped-compatible message
+    cmd_topic: "/control/ackermann_cmd"
+
+    # ── Control Mode ──
+    # "camera"  — steer from lane_center_offset only
+    # "lidar"   — steer from best_gap_angle only
+    # "fused"   — blend both (recommended)
+    control_mode: "fused"
+
+    # ── Fusion Weights (for "fused" mode) ──
+    # How much to weight camera vs LiDAR for steering
+    camera_weight: 0.65         # camera centering weight
+    lidar_weight: 0.35          # LiDAR gap-following weight
+
+    # ── Steering PID (camera-based centering) ──
+    steering_pid:
+      kp: 0.8                   # proportional gain
+      ki: 0.01                  # integral gain
+      kd: 0.15                  # derivative gain
+      integral_max: 0.5         # anti-windup clamp
+      output_min: -1.0          # max left steering (normalized)
+      output_max: 1.0           # max right steering (normalized)
+
+    # ── Ackermann Geometry ──
+    max_steering_angle_deg: 30.0   # physical max steering angle
+    wheelbase_m: 0.35              # distance between front and rear axles
+
+    # ── Speed Control ──
+    speed:
+      max_speed_mps: 3.0           # max speed on straights (m/s)
+      min_speed_mps: 1.2           # min speed in tight curves (m/s)
+      cruise_speed_mps: 1.5        # default cruising speed (m/s)
+
+      # Curvature-based slowdown
+      # speed = max_speed - slowdown_factor * |steering_angle|
+      slowdown_factor: 3.0
+
+      # Obstacle-based braking
+      obstacle_brake_distance: 1.0   # start braking when obstacle < this (m)
+      obstacle_stop_distance: 0.5    # full stop when obstacle < this (m)
+
+    # ── Safety ──
+    safety:
+      perception_timeout_sec: 0.5   # e-stop if no perception data for this long
+      enable_estop: true             # enable emergency stop
+      estop_decel_mps2: 5.0          # deceleration rate for e-stop
+
+    # ── Control Loop ──
+    control_rate_hz: 30.0            # control loop frequency
+
+motor_bridge:
+  ros__parameters:
+    # ── Input ──
+    cmd_topic: "/control/ackermann_cmd"
+
+    # ── Serial / PWM Configuration ──
+    # Match your ESP32 serial device (e.g., /dev/ttyUSB2 or /dev/ttyACM0)
+    serial_port: "/dev/ttyUSB0"
+    baud_rate: 115200
+
+    # ── Servo Mapping ──
+    # Maps normalized steering [-1, 1] → PWM pulse width
+    steering_pwm_center: 1500      # neutral position (μs)
+    steering_pwm_range: 500        # ± deviation from center (μs)
+    steering_invert: false         # flip steering direction
+
+    # ── Throttle Mapping ──
+    # Maps speed (m/s) → PWM or ESC value
+    throttle_pwm_neutral: 1500     # neutral / stop (μs)
+    throttle_pwm_max: 1625         # full forward (μs)
+    throttle_pwm_min: 1000         # full reverse (μs)
+    throttle_invert: false         # flip throttle direction
+
+    # ── Rate ──
+    command_rate_hz: 50.0          # PWM update rate

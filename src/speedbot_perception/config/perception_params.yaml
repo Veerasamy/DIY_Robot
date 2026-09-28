@@ -1,0 +1,71 @@
+###############################################################################
+# SpeedBot Perception Parameters
+# Tune these on-site using the hsv_tuner node, then paste values here.
+###############################################################################
+
+wall_detector:
+  ros__parameters:
+    # ── Camera Topics ──
+    image_topic: "/zed/zed_node/rgb/color/rect/image"
+    depth_topic: "/zed/zed_node/depth/depth_registered"
+    camera_info_topic: "/zed/zed_node/rgb/color/rect/camera_info"
+
+    # ── HSV Filter for Wall/Boundary Color ──
+    # Default: broad yellow-brown range for hay bales
+    hsv_lower: [0,0,30]     # [H, S, V] lower bound
+    hsv_upper: [179,60,150]   # [H, S, V] upper bound
+
+    # ── Region of Interest (fraction of image) ──
+    # Crop the image to focus on the road area, ignore sky/ceiling
+    roi_top_fraction: 0.4       # ignore top 40% of image
+    roi_bottom_fraction: 1.0    # keep to bottom
+
+    # ── Morphological Filtering ──
+    morph_kernel_size: 5        # kernel for open/close operations
+    morph_iterations: 2         # number of iterations
+
+    # ── Canny Edge Detection ──
+    canny_low: 50
+    canny_high: 150
+
+    # ── Depth Filtering ──
+    min_depth_m: 0.3            # ignore detections closer than 30cm
+    max_depth_m: 8.0            # ignore detections beyond 8m
+
+    # ── Lane Estimation ──
+    min_contour_area: 500       # minimum pixel area to consider as wall
+    polynomial_order: 2         # order of polynomial fit for wall line
+    num_sample_points: 20       # points to sample along the fitted wall
+
+    # ── Output & Recording ──
+    publish_debug_image: true   # publish annotated debug image to /perception/debug_image
+    show_debug_window: false    # disable local cv2.imshow popups
+    record_video: true         # set to TRUE to record the annotated video
+    video_output_path: "/home/Arnab/DIY_AntiGravity/speedbot_detection.mp4"
+    processing_rate_hz: 20.0    # target processing rate
+
+lidar_processor:
+  ros__parameters:
+    # ── LiDAR Topics ──
+    scan_topic: "/scan"
+
+    # ── Scan Filtering ──
+    range_min: 0.15             # RPLiDAR C1 min range (m)
+    range_max: 12.0             # max range to consider (m)
+    angle_min_deg: -135.0       # front-facing arc start
+    angle_max_deg: 135.0        # front-facing arc end
+
+    # ── Obstacle Clustering (DBSCAN) ──
+    cluster_eps: 0.15           # max distance between points in a cluster (m)
+    cluster_min_samples: 3      # min points to form a cluster
+
+    # ── Front Collision Arc (for 90cm track width) ──
+    front_collision_angle_deg: 35.0  # only check ±35° for head-on obstacle stops (ignores side walls)
+
+    # ── Follow-the-Gap ──
+    safety_bubble_radius: 0.15  # inflate obstacles by 15cm (fit inside 90cm corridor)
+    max_gap_angle_deg: 75.0     # max steering angle to consider
+
+    # ── Output ──
+    publish_debug_markers: true
+    processing_rate_hz: 20.0
